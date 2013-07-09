@@ -28,6 +28,8 @@
     # Global ignore list.
     excludesfile = ~/.dotfiles/git/gitignore
 
+    editor = vim
+
 [include]
     # Define user details in ~/.gitconfig.user
     path = ~/.gitconfig.user

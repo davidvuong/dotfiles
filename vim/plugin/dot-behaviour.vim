@@ -2,6 +2,9 @@
 set wrap
 set linebreak
 
+" Automatically change the current directory.
+set autochdir
+
 " No annoying error sounds.
 set noerrorbells
 

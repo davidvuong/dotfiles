@@ -9,7 +9,13 @@ Recursive clone to include all submodules:
 
 Next, we have to install the [vundles](https://github.com/gmarik/vundle):
 
-    vim (open up vim)
+    # Add symlinks to vim.
+    cd
+    ln -s ~/dotfiles/vim .vim
+    ln -s ~/dotfiles/vimrc .vimrc
+
+    # Open up vim and install bundles.
+    vim
     :BundleInstall
 
 Next, we have to setup the terminal themes.
