@@ -1,0 +1,9 @@
+htop
+macvim
+git
+pstree
+tree
+sqlite3
+
+# Tap before install.
+gcc47

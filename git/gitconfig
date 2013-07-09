@@ -1,0 +1,33 @@
+[color]
+    ui = true
+
+[alias]
+    b = branch -v       # Verbose branch.
+
+    # Commits
+    c = commit -m       # Message commit.
+    ca = commit -am     # Commit all + message.
+    cam = commit -amend # Amend previous commit.
+
+    # Checkout
+    co = checkout
+    nb = checkout -b    # Checkout + create new branch.
+
+    # diff
+    dlast = diff HEAD   # diff last commit change.
+
+    # Status
+    s = status
+    st = status
+    stat = status
+
+[format]
+    pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+
+[core]
+    # Global ignore list.
+    excludesfile = ~/.dotfiles/git/gitignore
+
+[include]
+    # Define user details in ~/.gitconfig.user
+    path = ~/.gitconfig.user
