@@ -1,7 +1,12 @@
 " Enable syntax highlighting.
 syntax on
 set background=dark
-colorscheme solarized
+
+try
+    colorscheme solarized
+catch
+    colorscheme default
+endtry
 
 " Use 256colors.
 set t_Co=256
