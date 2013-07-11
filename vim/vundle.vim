@@ -8,11 +8,6 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles:
-
-" Don't forget to symlink to vim/colors/
-"
-"   cd ~
-"   ln -s ~/dotfiles/vim/bundles/vim-colors-solarized/colors/solarized.vim ~/dotfiles/vim/colors/solarized.vim
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
 
