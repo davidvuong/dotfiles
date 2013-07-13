@@ -33,3 +33,6 @@
 [include]
     # Define user details in ~/.gitconfig.user
     path = ~/.gitconfig.user
+
+[push]
+    default = matching
