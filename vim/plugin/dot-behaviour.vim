@@ -30,11 +30,9 @@ set softtabstop=4
 " structure of the current line to form the new indent rather than
 " reconstructing a new indent using new tabs/spaces.
 set autoindent
-set copyindent
 
 " Automatically indenting after special characters, see :help smartindent
 set smartindent
-set smarttab
 
 filetype plugin on
 filetype indent on

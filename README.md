@@ -1,22 +1,9 @@
 Dotfiles
 ===
 
-This is a dotfiles repository for my Mac OSX and Ubuntu LTS machines. There's no install script so you'll have to do a manual install.
+This is a dotfile repository for my Mac OSX and Ubuntu-LTS12.4 machines. To install:
 
-Recursive clone to include all submodules:
-
-    git clone --recursive git@github.com:davidvuong/dotfiles.git
-
-Next, we have to install the [vundles](https://github.com/gmarik/vundle):
-
-    # Add symlinks to vim.
-    cd
-    ln -s ~/dotfiles/vim .vim
-    ln -s ~/dotfiles/vimrc .vimrc
-
-    # Open up vim and install bundles.
-    vim
-    :BundleInstall
+	python -c "`curl -fsSL https://raw.github.com/davidvuong/dotfiles/master/install.py`"
 
 Next, we have to setup the terminal themes.
 
