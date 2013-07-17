@@ -1,5 +1,5 @@
 " leader=','
-nnoremap <leader>f :FufFile **/<cr>
+nnoremap <leader>f :FufFile<cr>
 nnoremap <leader>b :FufBuffer<cr>
 nnoremap <leader>t :FufTag<cr>
 

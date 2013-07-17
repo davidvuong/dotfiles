@@ -1,3 +1,7 @@
+[user]
+    name = David Vuong
+    email = david.vuong256@gmail.com
+
 [color]
     ui = true
 
@@ -29,10 +33,6 @@
     excludesfile = ~/.dotfiles/git/gitignore
 
     editor = vim
-
-[include]
-    # Define user details in ~/.gitconfig.user
-    path = ~/.gitconfig.user
 
 [push]
     default = matching
