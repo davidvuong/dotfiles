@@ -14,5 +14,8 @@ let g:syntastic_quiet_warnings=0
 " issue |:wq|, |:x|, and |:ZZ|
 let g:syntastic_check_on_wq=0
 
+" It's time to move away from v2.x.x and onto v3.x.x
+let g:syntastic_python_python_exe = 'python3'
+
 " TODO: I don't like the automatic check on :w
 "       I save too often and this slows things down a lot.
