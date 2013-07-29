@@ -4,6 +4,8 @@ map <leader>ss :setlocal spell!<CR>
 " Toggle paste.
 map <leader>p :set paste!<CR>
 
+map <leader>e :edit<CR>
+
 " Easier to indent with < and > keys.
 vnoremap < <gv
 vnoremap > >gv
