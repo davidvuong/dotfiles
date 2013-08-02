@@ -36,3 +36,9 @@ set wildignore+=vendor/cache/**
 set wildignore+=log/**
 set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
+
+" For some reason having this in vim/plugin/settings/syntastic.vim doesn't work
+" and it will revert back to the default mode_map dict.
+let g:syntastic_mode_map = {"mode": "active",
+                          \ "active_filetypes": [],
+                          \ "passive_filetypes": ["tex", "python"]}

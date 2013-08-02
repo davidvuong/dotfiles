@@ -2,7 +2,7 @@
 let g:syntastic_auto_loc_list=1
 
 " Automatically jump to the error when saving the file.
-let g:syntastic_auto_jump=1
+let g:syntastic_auto_jump=0
 
 " Mark syntax errors with :signs
 let g:syntastic_enable_signs=1
