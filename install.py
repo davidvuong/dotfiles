@@ -88,6 +88,10 @@ def main():
         os.symlink(path.join(DOT_HOME, path.join(parent, child[1:])),
                    path.join(HOME, path.split(dotf)[1]))
 
+    # Install pip + a few Python packages.
+    call(["sudo", "easy_install", "pip"])
+    call(["sudo", "pip", "install", "-r", "pip/requirements.txt"])
+
     print 'Install complete. Start a new terminal to see changes.'
 
 
