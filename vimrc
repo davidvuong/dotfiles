@@ -42,3 +42,5 @@ set wildignore+=*.png,*.jpg,*.gif
 let g:syntastic_mode_map = {"mode": "active",
                           \ "active_filetypes": [],
                           \ "passive_filetypes": ["tex", "python"]}
+
+autocmd FileType python map <buffer> <F3> :call Flake8()<CR>
