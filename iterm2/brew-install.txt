@@ -4,6 +4,10 @@ git
 pstree
 tree
 sqlite3
+pil
+clisp
+readline
+wget
 
 # Tap before install.
 gcc47

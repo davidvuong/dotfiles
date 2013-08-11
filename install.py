@@ -70,6 +70,14 @@ def setup_zsh():
     call(["chsh", "-s", "/bin/zsh"])
 
 
+def setup_brew():
+    if not path.exists("/usr/local/bin/brew"):
+        call(["ruby", "-e",
+              '"$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"'])
+
+    # TODO: Install brews
+
+
 def main():
     os.chdir(HOME)  # All paths should be relative to $HOME.
 
