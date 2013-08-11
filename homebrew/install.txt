@@ -8,6 +8,3 @@ pil
 clisp
 readline
 wget
-
-# Tap before install.
-gcc47

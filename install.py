@@ -75,7 +75,14 @@ def setup_brew():
         call(["ruby", "-e",
               '"$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"'])
 
-    # TODO: Install brews
+    # Install brews -- Some brews like gcc, we have to tap before we can
+    # download/install. It's long and I'd rather not automate them.
+    with open("dotfiles/homebrew/install.txt", "rU") as brews:
+        for brew in brews:
+            if brew.startswith("#"):
+                continue
+
+            call(["brew", "install", brew[:-1]])
 
 
 def main():
@@ -96,7 +103,10 @@ def main():
         os.symlink(path.join(DOT_HOME, path.join(parent, child[1:])),
                    path.join(HOME, path.split(dotf)[1]))
 
-    # Install pip + a few Python packages.
+    setup_brew()
+
+    # Install pip + a few Python packages -- I have to enter my password for
+    # sudo twice (after czsh and again for pip).
     call(["sudo", "easy_install", "pip"])
     call(["sudo", "pip", "install", "-r", "dotfiles/pip/requirements.txt"])
 
