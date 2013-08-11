@@ -1,7 +1,0 @@
-vim
-tree
-htop
-zsh
-git
-git-core
-python-virtualenv
