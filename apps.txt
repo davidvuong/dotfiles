@@ -1,0 +1,17 @@
+# List of all Mac OSX Applications I have installed:
+
+Skype
+VLC
+Transmission
+Chrome
+AppCleaner
+Alfred 2
+Android File Transfer
+Dropbox
+Flux
+iTerm2
+Mou
+Spotify
+LaTeX
+The Unarchiver
+Xcode
