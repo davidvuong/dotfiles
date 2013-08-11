@@ -5,6 +5,7 @@ existing raw dotfiles within $HOME, please back them up.
 """
 from subprocess import call
 from os import path
+from os import makedirs
 
 import os
 import shutil
@@ -83,6 +84,11 @@ def setup_brew():
                 continue
 
             call(["brew", "install", brew[:-1]])
+
+    if not path.exists(path.join(HOME, "Applications")):
+        makedirs(path.join(HOME, "Applications"))
+
+    call(["brew", "linkapps"])
 
 
 def main():

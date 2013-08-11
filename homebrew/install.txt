@@ -1,4 +1,5 @@
 htop
+readline
 macvim
 git
 pstree
@@ -6,5 +7,4 @@ tree
 sqlite3
 pil
 clisp
-readline
 wget
