@@ -1,3 +1,4 @@
+" NOTE: vim +BundleInstall +qall to install from comand line.
 " https://github.com/gmarik/vundle
 filetype off                    " required.
 
@@ -14,6 +15,7 @@ Bundle 'Lokaltog/vim-powerline'
 " Syntastic needs flake8|pyflakes|pylint for python files. I'm using
 " flake8 so just `pip install flake8` before using syntastic.
 Bundle 'scrooloose/syntastic'
+Bundle 'vim-flake8'
 
 Bundle 'tpope/vim-fugitive'
 

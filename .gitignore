@@ -1,2 +1,3 @@
 # Don't track anything in vim/bundle/
 vim/bundle/
+.DS_Store
