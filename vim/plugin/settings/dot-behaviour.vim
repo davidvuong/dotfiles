@@ -42,9 +42,6 @@ autocmd FileType make set noexpandtab   " Tabs !spaces in makefiles.
 " Allows us to freely move outside the bounds of text in visual mode.
 set virtualedit=block
 
-" Makes flake8 happy.
-set textwidth=79                        " Set max text width.
-
 " === History ===
 set history=1000        " More history.
 set undolevels=1000     " More undo frames.
