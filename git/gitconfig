@@ -33,7 +33,7 @@
 
 [core]
     # Global ignore list.
-    excludesfile = ~/.dotfiles/git/gitignore
+    excludesfile = ~/.gitignore
 
     editor = vim
 
