@@ -9,3 +9,4 @@ pil
 clisp
 wget
 python3
+graphviz
