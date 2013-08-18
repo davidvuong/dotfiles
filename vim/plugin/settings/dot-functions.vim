@@ -42,4 +42,4 @@ fun! <SID>StripTrailingWhitespaces()
 endfun
 
 " Add more languages here.
-autocmd FileType c,cpp,java,python,sql autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+autocmd FileType c,cpp,java,python,sql,ruby autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()

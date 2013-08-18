@@ -17,7 +17,6 @@ $RECYCLE.BIN/
 
 # Logs and databases:
 *.log
-*.sql
 *.sqlite
 
 # Packages:
