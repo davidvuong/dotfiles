@@ -8,7 +8,6 @@ AppCleaner
 Alfred 2
 Android File Transfer
 Dropbox
-Flux
 iTerm2
 Mou
 Spotify
