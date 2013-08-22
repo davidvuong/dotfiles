@@ -1,0 +1,3 @@
+For details on symbols on RHS of prompt, refer to:
+
+https://github.com/sorin-ionescu/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup
