@@ -44,4 +44,4 @@ let g:syntastic_mode_map = {"mode": "active",
                           \ "passive_filetypes": ["tex", "python"]}
 
 " pip install flake8 ; before using Flake8()
-autocmd FileType python map <buffer> <F7> :call Flake8()<CR>
+autocmd FileType python map <buffer> <F2> :call Flake8()<CR>

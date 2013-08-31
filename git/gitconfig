@@ -7,6 +7,8 @@
 
 [alias]
     b = branch -v       # Verbose branch.
+    br = branch -v
+    ba = branch -v -a
 
     # Commits
     c = commit -m       # Message commit.
