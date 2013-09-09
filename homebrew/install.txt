@@ -11,3 +11,4 @@ wget
 python3
 graphviz
 heroku
+gnuplot
