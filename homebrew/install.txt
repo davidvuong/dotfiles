@@ -13,3 +13,4 @@ graphviz
 heroku
 gnuplot
 zsh
+cloc
