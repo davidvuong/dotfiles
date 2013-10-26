@@ -12,3 +12,4 @@ python3
 graphviz
 heroku
 gnuplot
+zsh

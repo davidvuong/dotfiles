@@ -41,7 +41,7 @@ set wildignore+=*.png,*.jpg,*.gif
 " and it will revert back to the default mode_map dict.
 let g:syntastic_mode_map = {"mode": "active",
                           \ "active_filetypes": [],
-                          \ "passive_filetypes": ["tex", "python"]}
+                          \ "passive_filetypes": ["tex", "python", "html"]}
 
 " pip install flake8 ; before using Flake8()
 autocmd FileType python map <buffer> <F2> :call Flake8()<CR>

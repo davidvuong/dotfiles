@@ -48,16 +48,8 @@ Session.vim
 __pycache__
 .coverage
 
-# Python virtualenv specific:
-.Python
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ss]cripts
-
 # C specific:
 *.o
-*.lib
 *.a
 
 *.dll

@@ -1,8 +1,9 @@
 # Set Vim as the default terminal editor
 export EDITOR="vim"
 
-# TODO: Clean up $PATH at the end of the semester and do a proper ruby & RoR install.
-export PATH="/Users/davidvuong/Documents/rails_one_click/ruby/bin":$PATH
+export PATH="/usr/local/bin":$PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
 # Shell virtualenvwrapper startup.
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
