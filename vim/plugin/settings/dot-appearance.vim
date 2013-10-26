@@ -20,6 +20,3 @@ set number
 
 set showcmd     " Show incomplete cmds down the bottom.
 set showmode    " Show current mode down the bottom.
-
-set ttyfast     " Smoother redraws.
-set lazyredraw  " Don't redraw when running marcos.

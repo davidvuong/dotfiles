@@ -57,3 +57,6 @@ set showmatch           " Shows matching bracket.
 set noswapfile " No swap files.
 set nobackup
 set nowb
+
+set ttyfast     " Smoother redraws.
+set lazyredraw  " Don't redraw when running marcos.
