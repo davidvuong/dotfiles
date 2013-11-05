@@ -1,6 +1,6 @@
 " NOTE: vim +BundleInstall +qall to install from comand line.
 " https://github.com/gmarik/vundle
-filetype off                    " required.
+filetype off " required.
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -17,6 +17,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-flake8'
 
+" Git.
 Bundle 'tpope/vim-fugitive'
 
 " FuzzyFinder depends on the L9 library.
@@ -25,9 +26,8 @@ Bundle 'FuzzyFinder'
 
 Bundle 'scrooloose/nerdtree'
 
-filetype plugin indent on       " required.
+filetype plugin indent on " required.
 
-"
 " Brief help
 " :BundleList          - list configured bundles
 " :BundleInstall(!)    - install(update) bundles
