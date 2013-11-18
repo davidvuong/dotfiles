@@ -8,7 +8,7 @@ call vundle#rc()
 " Let Vundle manage Vundle (required).
 Bundle 'gmarik/vundle'
 
-" My Bundles:
+" My Bundles
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
 
@@ -25,6 +25,12 @@ Bundle 'vim-scripts/L9'
 Bundle 'FuzzyFinder'
 
 Bundle 'scrooloose/nerdtree'
+
+" A more powerful undo utility.
+Bundle 'sjl/gundo.vim'
+
+" Automatically add 'end' to certain structures in ruby.
+Bundle 'tpope/vim-endwise.git'
 
 filetype plugin indent on " required.
 
