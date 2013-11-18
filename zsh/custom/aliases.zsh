@@ -1,5 +1,5 @@
-alias l="ls -l"
-alias ll="ls -la"
+alias l="ls -l --color -X --group-directories-first"
+alias ll="ls -la --color -X --group-directories-first"
 
 alias cd..="cd .."
 alias ..3="../../../"
