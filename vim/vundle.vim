@@ -11,11 +11,14 @@ Bundle 'gmarik/vundle'
 " My Bundles
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
-
+"
 " Syntastic needs flake8|pyflakes|pylint for python files. I'm using
 " flake8 so just `pip install flake8` before using syntastic.
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-flake8'
+
+" Displaying ANSI colours inside VIM.
+Bundle 'vim-scripts/AnsiEsc.vim.git'
 
 " Git.
 Bundle 'tpope/vim-fugitive'
@@ -31,6 +34,17 @@ Bundle 'sjl/gundo.vim'
 
 " Automatically add 'end' to certain structures in ruby.
 Bundle 'tpope/vim-endwise.git'
+
+" A more intelligent auto completion.
+Bundle 'Shougo/neocomplcache.git'
+
+" Surrounds text with quotes, brackets, ... etc.
+"   Beginner Tips:
+"       - Visual mode:
+"           * Highlight word, S"
+"       - Normal mode:
+"           * csw"
+Bundle 'tpope/vim-surround.git'
 
 filetype plugin indent on " required.
 
