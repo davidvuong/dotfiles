@@ -46,6 +46,13 @@ Bundle 'Shougo/neocomplcache.git'
 "           * csw"
 Bundle 'tpope/vim-surround.git'
 
+" Searches through live buffers to find given strings.
+Bundle 'sjbach/lusty.git'
+
+" A grep replacement. Apparently it's a lot better.
+" NOTE: "ack" needs to be installed, so just... brew install ack
+Bundle 'mileszs/ack.vim.git'
+
 filetype plugin indent on " required.
 
 " Brief help
