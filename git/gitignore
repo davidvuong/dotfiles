@@ -85,7 +85,6 @@ __pycache__
 *.ind
 *.ist
 *.lof
-*.log
 *.lot
 *.maf
 *.mtc
