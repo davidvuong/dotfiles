@@ -1,13 +1,9 @@
 - Automate theme iterm2 selection.
-- Add the option to run the osx script after install.
 
 - Add auto RVM/Rails install.
     ref: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
 
     Step 6.
 
-- Use homebrew to install the latest version of zsh.
-    ref: http://stackoverflow.com/questions/12032583/what-is-the-definitive-way-to-install-upgrade-set-the-default-version-of-zsh
-
-- Add lunchy setup.
+- Add lunchy setup for postgres.
     ref: http://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
