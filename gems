@@ -1,0 +1,3 @@
+# Install useful gems system-wide.
+gem install lunchy
+gem install githug
