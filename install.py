@@ -93,6 +93,11 @@ def setup_postgres():
     pass
 
 
+def setup_iterm2():
+    # TODO: Automatically configure iterm2 settings.
+    pass
+
+
 def main():
     response = raw_input('Existing files will be altered. Continue? [y/n]')
     if response != 'y':

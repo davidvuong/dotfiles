@@ -26,6 +26,7 @@ brew install sqlite3
 # Languages.
 brew install python3
 brew install clisp
+brew install swi-prolog
 
 # Other programs.
 brew install macvim
