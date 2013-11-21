@@ -32,7 +32,10 @@ set softtabstop=4
 set autoindent
 
 " Automatically indenting after special characters, see :help smartindent
-set smartindent
+"set smartindent
+
+" smartindent always moves comments in Python to the start of line.
+set cindent
 
 filetype plugin on
 filetype indent on
