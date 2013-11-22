@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from subprocess import call, PIPE, Popen
+from subprocess import call, check_output, PIPE, Popen
 import os
 import sys
 import shutil
@@ -90,7 +90,18 @@ def setup_ruby():
 
 
 def setup_postgres():
-    pass
+    agent = '~/Library/LaunchAgents'
+    call(shlex.split('initdb /usr/local/var/postgres -E utf8'))
+    if not os.path.exists(os.path.expanduser(agent)):
+        os.mkdirs(agent)
+
+    version = check_output(shlex.split('postgres --version')).split()[-1]
+    psql_plist = '/usr/local/Cellar/postgresql/%s/homebrew.mxcl.postgresql.plist'
+    shutil.copy(psql_plist % version, agent)
+
+    # NOTE: Start/stop postgres using lunchy.
+    #   lunchy start postgres
+    #   lunchy stop postgres
 
 
 def setup_iterm2():
