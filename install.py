@@ -85,11 +85,22 @@ def setup_python():
 
 
 def setup_ruby():
-    # TODO: Install RVM, Rails, system-wide gems
-    pass
+    call(shlex.split('sh gems'))
+
+    # One step command to install RVM and Rails at the same time. For more information,
+    #
+    # NOTE: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
+    rvm = Popen(shlex.split('curl -L https://get.rvm.io'), stdout=PIPE)
+    Popen(shlex.split('bash -s stable --rails --autolibs=enable'), std=rvm.stdout)
 
 
 def setup_postgres():
+    # NOTE: For more information,
+    #   http://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
+    #
+    # NOTE: Start/stop postgres using lunchy.
+    #   lunchy start postgres
+    #   lunchy stop postgres
     agent = '~/Library/LaunchAgents'
     call(shlex.split('initdb /usr/local/var/postgres -E utf8'))
     if not os.path.exists(os.path.expanduser(agent)):
@@ -99,13 +110,10 @@ def setup_postgres():
     psql_plist = '/usr/local/Cellar/postgresql/%s/homebrew.mxcl.postgresql.plist'
     shutil.copy(psql_plist % version, agent)
 
-    # NOTE: Start/stop postgres using lunchy.
-    #   lunchy start postgres
-    #   lunchy stop postgres
-
 
 def setup_iterm2():
     # TODO: Automatically configure iterm2 settings.
+    #       Automate theme iterm2 selection.
     pass
 
 
