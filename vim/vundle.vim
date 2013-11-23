@@ -35,6 +35,14 @@ Bundle 'sjl/gundo.vim'
 " Automatically add 'end' to certain structures in ruby.
 Bundle 'tpope/vim-endwise.git'
 
+" For when we want to automatically expand text. For example, in Python,
+"
+"   ifmain<tab>
+"
+" expands to:
+"   if __name__ == '__main__'
+Bundle 'msanders/snipmate.vim.git'
+
 " A more intelligent auto completion.
 Bundle 'Shougo/neocomplcache.git'
 

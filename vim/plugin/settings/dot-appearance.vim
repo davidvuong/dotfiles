@@ -20,7 +20,3 @@ set number
 
 set showcmd     " Show incomplete cmds down the bottom.
 set showmode    " Show current mode down the bottom.
-
-" Display vertical line at 86 characters.
-let &colorcolumn=86
-highlight ColorColumn ctermbg=235 guibg=#2c2d27
