@@ -9,9 +9,6 @@ set nocompatible
 " http://items.sjbach.com/319/configuring-vim-right
 set hidden
 
-set laststatus=2    " Always show statusline (powerline needs this to show).
-set encoding=utf-8  " Neccessary to show Unicode glyphs.
-
 let mapleader=","
 
 " === Init Vundle ===
@@ -42,6 +39,3 @@ set wildignore+=*.png,*.jpg,*.gif
 let g:syntastic_mode_map = {"mode": "active",
                           \ "active_filetypes": [],
                           \ "passive_filetypes": ["tex", "python", "html"]}
-
-" pip install flake8 ; before using Flake8()
-autocmd FileType python map <buffer> <F2> :call Flake8()<CR>

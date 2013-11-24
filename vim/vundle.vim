@@ -8,10 +8,9 @@ call vundle#rc()
 " Let Vundle manage Vundle (required).
 Bundle 'gmarik/vundle'
 
-" My Bundles
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
-"
+
 " Syntastic needs flake8|pyflakes|pylint for python files. I'm using
 " flake8 so just `pip install flake8` before using syntastic.
 Bundle 'scrooloose/syntastic'
