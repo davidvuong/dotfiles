@@ -29,7 +29,7 @@ def setup_vim():
 
     # Install Vundle.
     call(['git', 'clone', 'https://github.com/gmarik/vundle.git',
-          os.path.join(HOME, '.vim/bundle/vundle')])
+          os.path.join(DOT_HOME, 'vim/bundle/vundle')])
 
     # Install bundles.
     call(['vim', '+BundleInstall', '+qall'])
