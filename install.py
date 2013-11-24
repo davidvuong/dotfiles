@@ -114,6 +114,15 @@ def setup_postgres():
 def setup_iterm2():
     # TODO: Automatically configure iterm2 settings.
     #       Automate theme iterm2 selection.
+    #
+    # Configurations:
+    #   - Command+Enter then view>Show Tabs in Fullscreen.
+    #
+    #   - Check: Quit when all windows are closed.
+    #   - Uncheck: Use Lion-style Fullscreen Windows.
+    #   - Uncheck: Dim inactive split panes.
+    #   - Check: Silence bell
+    #   - Set: Terminal Type to xterm-256color
     pass
 
 
