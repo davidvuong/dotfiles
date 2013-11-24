@@ -10,6 +10,8 @@
     br = branch -v
     ba = branch -v -a
 
+    p = push
+
     # Commits
     c = commit -m       # Message commit.
     ca = commit -am     # Commit all + message.

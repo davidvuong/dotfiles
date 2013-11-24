@@ -1,4 +1,4 @@
-All files with a `.vim` extension is automatically sourced when Vim starts up.
+*All files with a `.vim` extension is automatically sourced when Vim starts up.*
 
 # Plugins:
 Each should have their own `.vim` file.

@@ -1,3 +1,5 @@
+" Generic Non-plug-in specific mappings.
+
 " Toggle spell check.
 map <leader>ss :setlocal spell!<CR>
 

@@ -8,14 +8,17 @@ call vundle#rc()
 " Let Vundle manage Vundle (required).
 Bundle 'gmarik/vundle'
 
-" My Bundles:
+" My Bundles
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'Lokaltog/vim-powerline'
-
+"
 " Syntastic needs flake8|pyflakes|pylint for python files. I'm using
 " flake8 so just `pip install flake8` before using syntastic.
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-flake8'
+
+" Displaying ANSI colours inside VIM.
+Bundle 'vim-scripts/AnsiEsc.vim.git'
 
 " Git.
 Bundle 'tpope/vim-fugitive'
@@ -25,6 +28,38 @@ Bundle 'vim-scripts/L9'
 Bundle 'FuzzyFinder'
 
 Bundle 'scrooloose/nerdtree'
+
+" A more powerful undo utility.
+Bundle 'sjl/gundo.vim'
+
+" Automatically add 'end' to certain structures in ruby.
+Bundle 'tpope/vim-endwise.git'
+
+" For when we want to automatically expand text. For example, in Python,
+"
+"   ifmain<tab>
+"
+" expands to:
+"   if __name__ == '__main__'
+Bundle 'msanders/snipmate.vim.git'
+
+" A more intelligent auto completion.
+Bundle 'Shougo/neocomplcache.git'
+
+" Surrounds text with quotes, brackets, ... etc.
+"   Beginner Tips:
+"       - Visual mode:
+"           * Highlight word, S"
+"       - Normal mode:
+"           * csw"
+Bundle 'tpope/vim-surround.git'
+
+" Searches through live buffers to find given strings.
+Bundle 'sjbach/lusty.git'
+
+" A grep replacement. Apparently it's a lot better.
+" NOTE: "ack" needs to be installed, so just... brew install ack
+Bundle 'mileszs/ack.vim.git'
 
 filetype plugin indent on " required.
 

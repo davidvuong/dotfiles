@@ -1,5 +1,5 @@
-alias l="ls -l"
-alias ll="ls -la"
+alias l="ls -l --color -X --group-directories-first"
+alias ll="ls -la --color -X --group-directories-first"
 
 alias cd..="cd .."
 alias ..3="../../../"
@@ -11,6 +11,9 @@ alias j='jobs -l'
 if [ "$(uname)" = "Darwin" ]; then;
     alias vim="mvim -v"
 fi
+
+# GNU Replacements that couldn't be installed with --default-names
+alias cal=gcal
 
 # I don't like the default rm alias: alias rm="${aliases[rm]:-rm} -i"
 unalias rm

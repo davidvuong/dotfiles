@@ -1,7 +1,8 @@
 # Set Vim as the default terminal editor
 export EDITOR="vim"
 
-export PATH="/usr/local/bin":$PATH
+export PATH="/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 

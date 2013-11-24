@@ -1,0 +1,36 @@
+# Install homebrew.
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+
+# Makes sure we're on the latest version.
+brew update
+brew upgrade
+
+# Core tools.
+brew install zsh
+brew install git
+brew install coreutils
+
+# Development & general tools.
+brew install htop
+brew install wget
+brew install pstree
+brew install tree
+brew install gcal
+brew install heroku
+brew install cloc
+brew install ack
+
+# Databases.
+brew install sqlite3
+
+# Languages.
+brew install python3
+brew install clisp
+brew install swi-prolog
+
+# Other programs.
+brew install macvim
+brew install graphviz
+
+# Remove outdated versions from the cellar.
+brew cleanup
