@@ -25,4 +25,10 @@ Finally, set zsh as the default shell when we open up a terminal session:
 
 The following are apps that could not be installed automatically.
 
-    LaTeX, http://www.tug.org/mactex/
+* LaTeX, [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
+
+### Prompt Git Symbols (RHS)
+
+For details on the symbols on the RHS of the prompt, refer to:
+
+[https://github.com/sorin-ionescu/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup](https://github.com/sorin-ionescu/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup)
