@@ -16,12 +16,13 @@ brew install wget
 brew install pstree
 brew install tree
 brew install gcal
-brew install heroku
+brew install heroku-toolbelt
 brew install cloc
 brew install ack
 
 # Databases.
 brew install sqlite3
+brew install postgresql
 
 # Languages.
 brew install python3
