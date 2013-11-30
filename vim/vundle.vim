@@ -39,8 +39,9 @@ Bundle 'tpope/vim-endwise.git'
 "   ifmain<tab>
 "
 " expands to:
-"   if __name__ == '__main__'
-Bundle 'msanders/snipmate.vim.git'
+"   if __name__ == '__main__':
+"       main()
+Bundle 'davidvuong/snipmate.vim'
 
 " A more intelligent auto completion.
 Bundle 'Shougo/neocomplcache.git'
