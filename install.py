@@ -25,7 +25,8 @@ def _remove_at(path):
 def setup_vim():
     for vimf in ['.vimrc', '.vim']:
         _remove_at(os.path.join(HOME, vimf))
-        os.symlink(os.path.join(DOT_HOME, vimf[1:]), os.path.join(HOME, vimf))
+        os.symlink(os.path.join(DOT_HOME, os.path.join('vim', vimf[1:])),
+                   os.path.join(HOME, vimf))
 
     # Install Vundle.
     call(['git', 'clone', 'https://github.com/gmarik/vundle.git',
@@ -87,7 +88,8 @@ def setup_python():
 def setup_ruby():
     call(shlex.split('sh gems'))
 
-    # One step command to install RVM and Rails at the same time. For more information,
+    # One step command to install RVM and Rails at the same time.
+    # For more information:
     #
     # NOTE: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
     rvm = Popen(shlex.split('curl -L https://get.rvm.io'), stdout=PIPE)
