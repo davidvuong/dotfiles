@@ -61,6 +61,9 @@ Bundle 'sjbach/lusty.git'
 " NOTE: "ack" needs to be installed, so just... brew install ack
 Bundle 'mileszs/ack.vim.git'
 
+" Syntax highlighting for LESS.
+Bundle 'groenewege/vim-less'
+
 filetype plugin indent on " required.
 
 " Brief help
