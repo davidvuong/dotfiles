@@ -38,3 +38,4 @@ brew install graphviz
 
 # Remove outdated versions from the cellar.
 brew cleanup
+brew linkapps
