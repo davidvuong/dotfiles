@@ -22,6 +22,10 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 
     chsh -s /bin/zsh
 
+    # Install GCC.
+    brew tap homebrew/versions
+    brew install gcc46
+
     # Vim Install.
     ln -s ~/dotfiles/vim ~/.vim
     ln -s ~/dotfiles/vimrc ~/.vimrc
@@ -39,15 +43,10 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     sudo pip install -r ~/dotfiles/setup/requirements.txt
 
     # Installing Rails, RVM & Gems.
-    # FIXME: As of me writing this, this is currently broken.
-    curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --rails
+    \curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --rails --auto-dotfiles
+    sh setup/gems
 
-    # Configure Postgres.
-    #   - I don't think we have to run initdb since the brew install already does it for us.
-    initdb /usr/local/var/postgres -E utf8
-
-    sudo gem install lunchy
-
+    # Configure Postgres to start with lunchy.
     mkdir -p ~/Library/LaunchAgents
     cp /usr/local/Cellar/postgresql/VERSION/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
 
