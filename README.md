@@ -50,21 +50,19 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     mkdir -p ~/Library/LaunchAgents
     cp /usr/local/Cellar/postgresql/VERSION/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
 
+    createuser --superuser --createrole admin
+
     # Last couple things to symlink.
     ln -s ~/dotfiles/dircolors ~/.dircolors
 
 ### Themes
 
-I'm using solarized themes for both VIM and iterm2. To use them as well:
+Change iterm2 profile theme:
 
     iTerm>Preferences>Profiles>Colors>Load Presets...
     ... locate ~/dotfiles/iterm2/solarized
-    ... pick a theme (dark or light)
-    ... then use it (what we did earlier was just an import)
-
-Finally, set zsh as the default shell when we open up a terminal session:
-
-    iTerm>Preferences>Profiles>General>Command>Command>zsh
+    ... import theme (dark or light)
+    ... load theme (dark or light)
 
 ### Applications
 
