@@ -19,11 +19,16 @@ set backspace=indent,eol,start   " Allow backspace in insert mode.
 set autoread                     " Reload files changed outside of vim.
 
 " === Tabs, spaces and indentation ===
-set expandtab           " Spaces instead of tabs.
+
+" Spaces instead of tabs.
+set expandtab
 
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+
+" 2 spaces per tab for ruby files.
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 
 " Copies indent from current line when starting new line. Indent will be
 " deleted if nothing is typed one the new line. Copyindent copies the
