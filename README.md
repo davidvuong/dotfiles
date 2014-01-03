@@ -20,6 +20,8 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
         ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
     done
 
+    ln -s ~/.zprezto/zsh_nocorrect ~/zsh_nocorrect
+
     chsh -s /bin/zsh
 
     # Install GCC.
