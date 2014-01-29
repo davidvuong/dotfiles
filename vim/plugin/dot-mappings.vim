@@ -18,7 +18,13 @@ map <C-K> <C-W>k<C-W>_
 map <C-L> <C-W>l<C-W>_
 map <C-H> <C-W>h<C-W>_
 
-"Clear current search highlight by double tapping //
+" Scroll between opened tabs in F6.
+map <F6> <C-W>w
+
+map - <C-W>-
+map + <C-W>+
+
+" Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>
 
 " Adds the current datetime when <F2> is pressed inside insert mode.

@@ -43,3 +43,6 @@
 
 [push]
     default = matching
+
+[merge]
+    tool = diffmerge
