@@ -6,30 +6,7 @@
     ui = true
 
 [alias]
-    b = branch -v       # Verbose branch.
-    br = branch -v
-    ba = branch -v -a
-
-    p = push
-
-    # Commits
-    c = commit -m       # Message commit.
-    ca = commit -am     # Commit all + message.
-    cam = commit -amend # Amend previous commit.
-
-    # Checkout
-    co = checkout
-    nb = checkout -b    # Checkout + create new branch.
-
-    # diff
-    dlast = diff HEAD   # diff last commit change.
-
-    # Status
     s = status
-    st = status
-    stat = status
-
-    # Log
     graph = log --graph
 
 [format]
@@ -42,7 +19,7 @@
     editor = vim
 
 [push]
-    default = matching
+    default = simple
 
 [merge]
     tool = diffmerge
