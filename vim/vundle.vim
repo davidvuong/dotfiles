@@ -64,6 +64,9 @@ Bundle 'mileszs/ack.vim.git'
 " Syntax highlighting for LESS.
 Bundle 'groenewege/vim-less'
 
+" PeepOpen vim-plugin required for the PeepOpen application.
+Bundle 'shemerey/vim-peepopen'
+
 filetype plugin indent on " required.
 
 " Brief help

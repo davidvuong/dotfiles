@@ -28,7 +28,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     brew tap homebrew/versions
     brew install gcc46
 
-    # Vim Install.
+    # Vim Setup Install.
     ln -s ~/dotfiles/vim ~/.vim
     ln -s ~/dotfiles/vimrc ~/.vimrc
 
@@ -57,7 +57,20 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     # Last couple things to symlink.
     ln -s ~/dotfiles/dircolors ~/.dircolors
 
-### Themes
+### Manual MacVim + PeepOpen Setup
+
+Install MacVim (with file browser):
+
+    # I found a script online, written by Joel Cogen.
+    #   https://github.com/joelcogen/homebrew-macvimsplitbrowser
+
+Open PeepOpen and go to preferences then set "Editor" to "MacVim".
+
+Open MacVim, then...
+
+    Preferences>General>Open files from applications>in current window>with a tab for each file
+
+### Manual Themes Setup
 
 Change iterm2 profile theme:
 

@@ -1,10 +1,15 @@
 " Generic Non-plug-in specific mappings.
 
+" I have PeepOpen setup with MacVim and the shortcut is <leader>p
+if has("gui_running")
+    " Toggle paste.
+    map <leader>P :set paste!<CR>
+else
+    map <leader>p :set paste!<CR>
+endif
+
 " Toggle spell check.
 map <leader>ss :setlocal spell!<CR>
-
-" Toggle paste.
-map <leader>p :set paste!<CR>
 
 map <leader>e :edit<CR>
 
