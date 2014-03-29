@@ -64,8 +64,14 @@ Bundle 'mileszs/ack.vim.git'
 " Syntax highlighting for LESS.
 Bundle 'groenewege/vim-less'
 
+" Syntax highlighting for mustache templates.
+Bundle 'juvenn/mustache.vim'
+
 " PeepOpen vim-plugin required for the PeepOpen application.
 Bundle 'shemerey/vim-peepopen'
+
+" Automatically set the Vim root directory to where .git/ is located.
+Bundle 'airblade/vim-rooter'
 
 filetype plugin indent on " required.
 

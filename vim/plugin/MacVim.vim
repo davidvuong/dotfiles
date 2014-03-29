@@ -32,7 +32,4 @@ if has("gui_macvim")
 
     " Set font and font size (Monaco is the default font on Mac).
     set gfn=Monaco:h12
-
-    nmap <F3> :echo<CR>
-    imap <F3> <C-o>:echo<CR>
 endif
