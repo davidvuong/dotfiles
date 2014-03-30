@@ -43,9 +43,6 @@ Bundle 'tpope/vim-endwise.git'
 "       main()
 Bundle 'davidvuong/snipmate.vim'
 
-" A more intelligent auto completion.
-Bundle 'Shougo/neocomplcache.git'
-
 " Surrounds text with quotes, brackets, ... etc.
 "   Beginner Tips:
 "       - Visual mode:
@@ -60,6 +57,9 @@ Bundle 'sjbach/lusty.git'
 " A grep replacement. Apparently it's a lot better.
 " NOTE: "ack" needs to be installed, so just... brew install ack
 Bundle 'mileszs/ack.vim.git'
+
+" Display CSS colours.
+Bundle 'ap/vim-css-color'
 
 " Syntax highlighting for LESS.
 Bundle 'groenewege/vim-less'
