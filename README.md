@@ -31,6 +31,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     # Vim Setup Install.
     ln -s ~/dotfiles/vim ~/.vim
     ln -s ~/dotfiles/vimrc ~/.vimrc
+    ln -s ~/dotfiles/gvimrc ~/.gvimrc
 
     # Vundle for Vim plugins.
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
