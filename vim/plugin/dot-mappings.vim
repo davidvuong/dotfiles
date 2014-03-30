@@ -13,6 +13,9 @@ map <leader>ss :setlocal spell!<CR>
 
 map <leader>e :edit<CR>
 
+" map ;; to Esc
+map! ;; <Esc>
+
 " Easier to indent with < and > keys.
 vnoremap < <gv
 vnoremap > >gv

@@ -76,6 +76,12 @@ Bundle 'airblade/vim-rooter'
 " Code Auto-completion.
 Bundle 'Valloric/YouCompleteMe'
 
+" Code navigation via ctags & easy-tags (auto index).
+Bundle 'xolox/vim-easytags'
+
+" Required by easy-tags.
+Bundle 'xolox/vim-misc'
+
 filetype plugin indent on " required.
 
 " Brief help
