@@ -70,6 +70,14 @@ Open MacVim, then...
 
     Preferences>General>Open files from applications>in current window>with a tab for each file
 
+### Manual YouCompleteMe Build + Install
+
+Running `vim +BundleInstall +qall` will install the Vim plugin however as pointed out in their documentation, YCM comes with a compiled part. This means there are additional steps to install.
+
+    # Ref: https://github.com/Valloric/YouCompleteMe
+    cd ~/.vim/bundle/YouCompleteMe
+    ./install.sh --clang-completer
+
 ### Manual Themes Setup
 
 Change iterm2 profile theme:

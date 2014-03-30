@@ -73,6 +73,9 @@ Bundle 'shemerey/vim-peepopen'
 " Automatically set the Vim root directory to where .git/ is located.
 Bundle 'airblade/vim-rooter'
 
+" Code Auto-completion.
+Bundle 'Valloric/YouCompleteMe'
+
 filetype plugin indent on " required.
 
 " Brief help
