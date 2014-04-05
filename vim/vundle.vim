@@ -41,6 +41,8 @@ Bundle 'tpope/vim-endwise.git'
 " expands to:
 "   if __name__ == '__main__':
 "       main()
+"
+" TODO: Change the trigger for snipmate from <tab> to anther key as it clashes with YCM.
 Bundle 'davidvuong/snipmate.vim'
 
 " Surrounds text with quotes, brackets, ... etc.
@@ -75,12 +77,6 @@ Bundle 'airblade/vim-rooter'
 
 " Code Auto-completion.
 Bundle 'Valloric/YouCompleteMe'
-
-" Code navigation via ctags & easy-tags (auto index).
-Bundle 'xolox/vim-easytags'
-
-" Required by easy-tags.
-Bundle 'xolox/vim-misc'
 
 filetype plugin indent on " required.
 

@@ -30,6 +30,9 @@ set softtabstop=4
 " 2 spaces per tab for ruby files.
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
 
+" Treat rabl files as Ruby files to enable syntax highlighting.
+au BufRead,BufNewFile *.rabl setf ruby
+
 " Copies indent from current line when starting new line. Indent will be
 " deleted if nothing is typed one the new line. Copyindent copies the
 " structure of the current line to form the new indent rather than
