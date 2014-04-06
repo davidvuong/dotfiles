@@ -80,6 +80,9 @@ Bundle 'airblade/vim-rooter'
 " Code Auto-completion.
 Bundle 'Valloric/YouCompleteMe'
 
+" Vim Python virtualenv.
+Bundle 'jmcantrell/vim-virtualenv'
+
 filetype plugin indent on " required.
 
 " Brief help
