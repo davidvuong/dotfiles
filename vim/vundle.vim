@@ -26,7 +26,9 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/L9'
 Bundle 'FuzzyFinder'
 
+" NERDTree + extension.
 Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
 
 " A more powerful undo utility.
 Bundle 'sjl/gundo.vim'
