@@ -55,6 +55,9 @@ Bundle 'davidvuong/snipmate.vim'
 "           * csw"
 Bundle 'tpope/vim-surround.git'
 
+" readline mappings for insert and command mode (normal mode omitted).
+Bundle 'tpope/vim-rsi'
+
 " Searches through live buffers to find given strings.
 Bundle 'sjbach/lusty.git'
 
