@@ -10,7 +10,6 @@ brew install zsh
 brew install git
 brew install coreutils
 brew install heroku-toolbelt
-brew install ctags
 
 # Development & general tools.
 brew install htop
