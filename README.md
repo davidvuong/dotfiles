@@ -58,12 +58,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     # Last couple things to symlink.
     ln -s ~/dotfiles/dircolors ~/.dircolors
 
-### Manual MacVim + PeepOpen Setup
-
-Install MacVim (with file browser):
-
-    # I found a script online, written by Joel Cogen.
-    #   https://github.com/joelcogen/homebrew-macvimsplitbrowser
+### PeepOpen Setup
 
 Open PeepOpen and go to preferences then set "Editor" to "MacVim".
 
