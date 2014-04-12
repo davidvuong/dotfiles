@@ -39,6 +39,9 @@ Session.vim
 .netrwhist
 *~
 
+# diffmerge .orig files:
+*.orig
+
 # Office temp files:
 ~$*
 
