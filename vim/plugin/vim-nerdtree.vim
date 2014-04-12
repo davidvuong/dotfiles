@@ -20,3 +20,6 @@ function! s:CloseIfOnlyNerdTreeLeft()
     endif
   endif
 endfunction
+
+" NERDTree cheatsheet.
+" http://www.cheatography.com/stepk/cheat-sheets/vim-nerdtree/
