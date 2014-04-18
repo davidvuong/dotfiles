@@ -1,6 +1,3 @@
-" Open NERDTree on startup (console).
-let g:nerdtree_tabs_open_on_console_startup=1
-
 " Toggles NERDTree.
 nnoremap <F3> :NERDTreeTabsToggle<CR>
 
