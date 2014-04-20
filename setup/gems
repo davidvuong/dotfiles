@@ -2,3 +2,4 @@
 gem install lunchy
 gem install githug
 gem install git-up
+gem install travis
