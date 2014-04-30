@@ -45,7 +45,6 @@ Bundle 'tpope/vim-endwise.git'
 "   if __name__ == '__main__':
 "       main()
 "
-" TODO: Change the trigger for snipmate from <tab> to anther key as it clashes with YCM.
 Bundle 'davidvuong/snipmate.vim'
 
 " Surrounds text with quotes, brackets, ... etc.
@@ -80,9 +79,6 @@ Bundle 'shemerey/vim-peepopen'
 
 " Automatically set the Vim root directory to where .git/ is located.
 Bundle 'airblade/vim-rooter'
-
-" Code Auto-completion.
-Bundle 'Valloric/YouCompleteMe'
 
 " Vim Python virtualenv.
 Bundle 'jmcantrell/vim-virtualenv'

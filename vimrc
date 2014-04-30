@@ -39,3 +39,7 @@ set wildignore+=*.png,*.jpg,*.gif
 let g:syntastic_mode_map = {"mode": "active",
                           \ "active_filetypes": [],
                           \ "passive_filetypes": ["tex", "python", "html", "less", "cpp"]}
+
+" IdeaVIM only looks at vimrc...
+set visualbell
+set noerrorbells

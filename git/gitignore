@@ -32,6 +32,8 @@ $RECYCLE.BIN/
 TAGS
 tags
 
+.idea/
+
 # Vim:
 *.s[a-w][a-z]
 *.un~
