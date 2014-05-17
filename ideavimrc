@@ -1,0 +1,12 @@
+source ~/.vimrc
+
+" IdeaVIM only looks at vimrc...
+set visualbell
+set noerrorbells
+
+" Spaces instead of tabs.
+set expandtab
+
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
