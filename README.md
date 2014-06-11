@@ -88,6 +88,7 @@ Change iterm2 profile theme:
 The following are apps that could not be installed automatically.
 
 * LaTeX, [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
+* WebStorm, [http://www.jetbrains.com/webstorm/](http://www.jetbrains.com/webstorm/)
 
 ### Prompt Git Symbols (RHS)
 
