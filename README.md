@@ -45,6 +45,9 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     sudo easy_install pip
     sudo pip install -r ~/dotfiles/setup/requirements.txt
 
+    # npm Modules.
+    sh setup/node
+
     # Installing Rails, RVM & Gems.
     \curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --rails --auto-dotfiles
     sh setup/gems

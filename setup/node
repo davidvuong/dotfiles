@@ -1,0 +1,4 @@
+npm install grunt
+npm install bower
+npm install coffee-script
+npm install underscorejs
