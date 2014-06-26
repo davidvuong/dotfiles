@@ -34,6 +34,9 @@ Bundle 'davidvuong/nerdtree-execute'
 " A more powerful undo utility.
 Bundle 'sjl/gundo.vim'
 
+" Coffee-script syntax highlighting.
+Bundle 'kchmck/vim-coffee-script'
+
 " Automatically add 'end' to certain structures in ruby.
 Bundle 'tpope/vim-endwise.git'
 
