@@ -1,0 +1,21 @@
+record_storage_path: ~/sample
+physical_storage_paths:
+    - ~/Downloads/tvm-downloads
+    - /Volumes/Elements/tvshows
+    - /Volumes/Elements2/tvshows
+    - /Volumes/SeagateExp/tvshows
+    - /Volumes/SeagateExp
+    - /Volumes/Elements/tvm-downloads
+cache_path: ~/.tvm-cache/
+ignore_paths:
+    - Thumbs.db
+    - .DS_Store
+    - ^\._.*
+ignore_titles:
+    - orange_is_the_new_black
+    - falling_skies
+    - elementary
+    - veep
+    - hannibal
+    - grimm
+    - mythbusters

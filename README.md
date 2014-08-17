@@ -30,7 +30,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     # Vim Setup Install.
     ln -s ~/dotfiles/vim ~/.vim
     ln -s ~/dotfiles/vimrc ~/.vimrc
-    ln -s ~/dotfiles/gvimrc ~/.gvimrc
+    ln -s ~/dotfiles/ideavim ~/.ideavim
 
     # Vundle for Vim plugins.
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
@@ -57,6 +57,10 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 
     # Last couple things to symlink.
     ln -s ~/dotfiles/dircolors ~/.dircolors
+    ln -s ~/dotfiles/tvm/tvm.yaml ~/.tvm.yaml
+
+    # These symlinks need to be done after manually install apps.
+    ln -s ~/Dropbox/sample ~/sample
 
 ### Manual Themes Setup
 
