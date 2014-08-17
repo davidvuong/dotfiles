@@ -48,7 +48,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 
     # Installing Rails, RVM & Gems.
     \curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --rails --auto-dotfiles
-    
+
     source ~/.zshrc
     sh setup/gems
 
@@ -62,6 +62,9 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 
     # These symlinks need to be done after manually install apps.
     ln -s ~/Dropbox/sample ~/sample
+
+    # Finally, set load the osx defaults.
+    sh setup/osx
 
 ### Manual Themes Setup
 
