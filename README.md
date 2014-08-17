@@ -71,7 +71,7 @@ Change iterm2 profile theme:
 
 The following are dev-apps that I install automatically.
 
-* iTerm2 [http://iterm2.com/downloads.html](http://iterm2.com/downloads.html)
+* iTerm2, [http://iterm2.com/downloads.html](http://iterm2.com/downloads.html)
 * LaTeX, [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
 * WebStorm, [http://www.jetbrains.com/webstorm/](http://www.jetbrains.com/webstorm/)
 * PyCharm CE, [http://www.jetbrains.com/pycharm/download/](http://www.jetbrains.com/pycharm/download/)
@@ -80,7 +80,7 @@ The following are dev-apps that I install automatically.
 
 These are GUI apps I use which I also install automatically.
 
-skype, vlc, transmission, google-chrome, firefox, appcleaner, alfred, dropbox, android-file-transfer, the-unarchiver, cyberduck
+skype, vlc, transmission, google-chrome, firefox, appcleaner, alfred, dropbox, android-file-transfer, the-unarchiver, cyberduck, spotify, fitbit-connect
 
 ### PeepOpen Setup
 
