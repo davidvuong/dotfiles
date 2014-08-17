@@ -4,7 +4,7 @@
 # Disable menu bar transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
-# Show remaining battery time; hide percentage
+# Show percentage; hide remaining battery time
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 defaults write com.apple.menuextra.battery ShowTime -string "NO"
 
@@ -65,11 +65,11 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
-# # Map bottom right Trackpad corner to right-click
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-# defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-# defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+# Map bottom right Trackpad corner to right-click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
 # Require password immediately after sleep or screen saver begins
 #defaults write com.apple.screensaver askForPassword -int 1
@@ -127,16 +127,14 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
-# # Hot corners
-# # Top left screen corner → Mission Control
-# defaults write com.apple.dock wvous-tl-corner -int 2
-# defaults write com.apple.dock wvous-tl-modifier -int 0
-# # Top right screen corner → Desktop
-# defaults write com.apple.dock wvous-tr-corner -int 4
-# defaults write com.apple.dock wvous-tr-modifier -int 0
-# # Bottom left screen corner → Start screen saver
-# defaults write com.apple.dock wvous-bl-corner -int 5
-# defaults write com.apple.dock wvous-bl-modifier -int 0
+# Hot corners
+# Top left screen corner → Mission Control
+defaults write com.apple.dock wvous-tl-corner -int 2
+defaults write com.apple.dock wvous-tl-modifier -int 0
+
+# Bottom left screen corner → Desktop
+defaults write com.apple.dock wvous-bl-corner -int 4
+defaults write com.apple.dock wvous-bl-modifier -int 0
 
 # Enable highlight hover effect for the grid view of a stack (Dock)
 defaults write com.apple.dock mouse-over-hilte-stack -bool true
@@ -229,17 +227,6 @@ defaults write com.apple.dashboard devmode -bool true
 
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
-# Disable local Time Machine backups
-# hash tmutil &> /dev/null && sudo tmutil disablelocal
-
-# Disable Swipe controls for Google Chrome
-#defaults write com.google.Chrome.plist AppleEnableSwipeNavigateWithScrolls -bool FALSE
-
-# # Remove Dropbox’s green checkmark icons in Finder
-# file=/Applications/Dropbox.app/Contents/Resources/check.icns
-# [ -e "$file" ] && mv -f "$file" "$file.bak"
-# unset file
 
 # Kill affected applications
 for app in Finder Dock Mail Safari iTunes iCal Address\ Book SystemUIServer; do killall "$app" > /dev/null 2>&1; done
