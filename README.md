@@ -45,7 +45,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     sudo pip install -r ~/dotfiles/setup/requirements.txt
 
     # npm Modules.
-    sudo npm -g install grunt-cli karma bower
+    sudo npm -g install grunt-cli karma bower nodemon
 
     # Installing Rails, RVM & Gems.
     \curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --rails --auto-dotfiles
