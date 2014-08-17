@@ -48,6 +48,8 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 
     # Installing Rails, RVM & Gems.
     \curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --rails --auto-dotfiles
+    
+    source ~/.zshrc
     sh setup/gems
 
     # Configure Postgres to start with lunchy.
