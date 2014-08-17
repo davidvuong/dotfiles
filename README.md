@@ -7,9 +7,8 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     git clone https://github.com/davidvuong/dotfiles ~/dotfiles
     cd ~/dotfiles
 
-    # Brews & Casks (GUI Applications) Install.
+    # Brew Installs.
     sh setup/brews
-    sh setup/casks
 
     # Zsh & Prezto Install.
     zsh
@@ -56,18 +55,8 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     mkdir -p ~/Library/LaunchAgents
     cp /usr/local/Cellar/postgresql/VERSION/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
 
-    createuser --superuser --createrole admin
-
     # Last couple things to symlink.
     ln -s ~/dotfiles/dircolors ~/.dircolors
-
-### PeepOpen Setup
-
-Open PeepOpen and go to preferences then set "Editor" to "MacVim".
-
-Open MacVim, then...
-
-    Preferences>General>Open files from applications>in current window>with a tab for each file
 
 ### Manual Themes Setup
 
@@ -80,11 +69,26 @@ Change iterm2 profile theme:
 
 ### Applications
 
-The following are apps that could not be installed automatically.
+The following are dev-apps that I install automatically.
 
+* iTerm2 [http://iterm2.com/downloads.html](http://iterm2.com/downloads.html)
 * LaTeX, [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
 * WebStorm, [http://www.jetbrains.com/webstorm/](http://www.jetbrains.com/webstorm/)
 * PyCharm CE, [http://www.jetbrains.com/pycharm/download/](http://www.jetbrains.com/pycharm/download/)
+* Mou, [http://mouapp.com/](http://mouapp.com/)
+* PeepOpen, [http://topfunky.github.io/PeepOpen/](http://topfunky.github.io/PeepOpen/)
+
+These are GUI apps I use which I also install automatically.
+
+skype, vlc, transmission, google-chrome, firefox, appcleaner, alfred, dropbox, android-file-transfer, the-unarchiver, cyberduck
+
+### PeepOpen Setup
+
+Open PeepOpen and go to preferences then set "Editor" to "MacVim".
+
+Open MacVim, then...
+
+    Preferences>General>Open files from applications>in current window>with a tab for each file
 
 ### Prompt Git Symbols (RHS)
 
