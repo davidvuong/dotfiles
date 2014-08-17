@@ -1,3 +1,0 @@
-LABEL=SeagateExp none ntfs rw,auto,nobrowse
-LABEL=Elements none ntfs rw,auto,nobrowse
-LABEL=Elements2 none ntfs rw,auto,nobrowse
