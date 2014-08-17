@@ -41,7 +41,6 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 
     # Python Pip & Modules.
-    sudo easy_install pip
     sudo pip install -r ~/dotfiles/setup/requirements.txt
 
     # npm Modules.
