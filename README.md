@@ -30,6 +30,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     # Vim Setup Install.
     ln -s ~/dotfiles/vim ~/.vim
     ln -s ~/dotfiles/vimrc ~/.vimrc
+    ln -s ~/dotfiles/gvimrc ~/.gvimrc
     ln -s ~/dotfiles/ideavim ~/.ideavim
 
     # Vundle for Vim plugins.
