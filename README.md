@@ -85,19 +85,10 @@ The following are dev-apps that I install automatically.
 * WebStorm, [http://www.jetbrains.com/webstorm/](http://www.jetbrains.com/webstorm/)
 * PyCharm CE, [http://www.jetbrains.com/pycharm/download/](http://www.jetbrains.com/pycharm/download/)
 * Mou, [http://mouapp.com/](http://mouapp.com/)
-* PeepOpen, [http://topfunky.github.io/PeepOpen/](http://topfunky.github.io/PeepOpen/)
 
 These are GUI apps I use which I also install automatically.
 
 skype, vlc, transmission, google-chrome, firefox, appcleaner, alfred, dropbox, android-file-transfer, the-unarchiver, cyberduck, spotify, fitbit-connect
-
-### PeepOpen Setup
-
-Open PeepOpen and go to preferences then set "Editor" to "MacVim".
-
-Open MacVim, then...
-
-    Preferences>General>Open files from applications>in current window>with a tab for each file
 
 ### Prompt Git Symbols (RHS)
 
