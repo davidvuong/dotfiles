@@ -1,11 +1,9 @@
 record_storage_path: ~/sample
 physical_storage_paths:
     - ~/Downloads/tvm-downloads
-    - /Volumes/Elements/tvshows
-    - /Volumes/Elements2/tvshows
-    - /Volumes/SeagateExp/tvshows
-    - /Volumes/SeagateExp
-    - /Volumes/Elements/tvm-downloads
+    - /Volumes/Elements/anime
+    - /Volumes/Elements/western
+    - /Volumes/Elements/western_cartoons
 cache_path: ~/.tvm-cache/
 ignore_paths:
     - Thumbs.db
