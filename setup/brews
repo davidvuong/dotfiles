@@ -23,6 +23,7 @@ brew install ack
 # Databases.
 brew install sqlite3
 brew install postgresql
+brew install mongodb
 
 # Languages.
 brew install python3

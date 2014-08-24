@@ -57,6 +57,10 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     mkdir -p ~/Library/LaunchAgents
     cp /usr/local/Cellar/postgresql/VERSION/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
 
+    # Setup /data/db for mongodb.
+    sudo mkdir -p /data/db
+    sudo chown davidvuong /data/db
+
     # Last couple things to symlink.
     ln -s ~/dotfiles/dircolors ~/.dircolors
     ln -s ~/dotfiles/tvm/tvm.yaml ~/.tvm.yaml
