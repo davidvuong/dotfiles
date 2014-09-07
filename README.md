@@ -89,8 +89,10 @@ The following are dev-apps that I install automatically.
 * WebStorm, [http://www.jetbrains.com/webstorm/](http://www.jetbrains.com/webstorm/)
 * PyCharm CE, [http://www.jetbrains.com/pycharm/download/](http://www.jetbrains.com/pycharm/download/)
 * Mou, [http://mouapp.com/](http://mouapp.com/)
+* VirtualBox, [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+* Vagrant, [http://www.vagrantup.com/downloads.html](http://www.vagrantup.com/downloads.html)
 
-These are GUI apps I use which I also install automatically.
+The following are non-developer specific applications I also use.
 
 skype, vlc, transmission, google-chrome, firefox, appcleaner, alfred, dropbox, android-file-transfer, the-unarchiver, cyberduck, spotify, fitbit-connect
 
