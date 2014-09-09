@@ -91,6 +91,7 @@ The following are dev-apps that I install automatically.
 * Mou, [http://mouapp.com/](http://mouapp.com/)
 * VirtualBox, [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 * Vagrant, [http://www.vagrantup.com/downloads.html](http://www.vagrantup.com/downloads.html)
+* ChefDK, [http://downloads.getchef.com/chef-dk/mac/#/](http://downloads.getchef.com/chef-dk/mac/#/)
 
 The following are non-developer specific applications I also use.
 
