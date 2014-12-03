@@ -3,3 +3,5 @@ source ~/.vimrc
 " IdeaVIM only looks at vimrc...
 set visualbell
 set noerrorbells
+
+set nu
