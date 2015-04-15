@@ -45,22 +45,13 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     sudo pip install -r ~/dotfiles/setup/requirements.txt
 
     # npm Modules.
-    sudo npm -g install grunt-cli karma bower nodemon coffee-script
+    sudo npm -g install grunt-cli karma bower nodemon
 
     source ~/.zshrc
     sh setup/gems
 
-    # Configure Postgres to start with lunchy.
-    mkdir -p ~/Library/LaunchAgents
-    cp /usr/local/Cellar/postgresql/VERSION/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
-
-    # Setup /data/db for mongodb.
-    sudo mkdir -p /data/db
-    sudo chown davidvuong /data/db
-
     # Last couple things to symlink.
     ln -s ~/dotfiles/dircolors ~/.dircolors
-    ln -s ~/dotfiles/tvm/tvm.yaml ~/.tvm.yaml
 
     # These symlinks need to be done after manually install apps.
     ln -s ~/Dropbox/sample ~/sample
