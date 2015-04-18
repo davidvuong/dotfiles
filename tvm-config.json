@@ -1,4 +1,7 @@
 {
+    "TVM_PATH": "/Users/davidvuong/Dropbox/tvm-records",
+    "INDEX_PATH": "/Users/davidvuong/Dropbox/tvm-records/index.json",
+    "RECORDS_PATH": "/Users/davidvuong/Dropbox/tvm-records/records",
     "STORAGE_PATHS": [
         "/Users/davidvuong/Downloads/tvm-downloads",
         "/Volumes/Elements/anime",
