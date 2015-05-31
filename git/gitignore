@@ -104,6 +104,3 @@ __pycache__
 *.vrb
 *.xdy
 *.tdo
-
-# Tapestry Specific:
-messaging-ln/

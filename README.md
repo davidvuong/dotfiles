@@ -4,13 +4,23 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 
 ### Install
 
+1. Clone dotfiles repository
+
+    ```bash
     git clone https://github.com/davidvuong/dotfiles ~/dotfiles
     cd ~/dotfiles
+    ```
 
-    # Brew Installs.
+2. Install `brew` and brews
+
+    ```bash
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     sh setup/brews
+    ```
 
-    # Zsh & Prezto Install.
+3. Setup zsh with custom Prezto configuration
+
+    ```zsh
     zsh
     git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto"
 
@@ -22,44 +32,57 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     ln -s ~/.zprezto/zsh_nocorrect ~/zsh_nocorrect
 
     chsh -s /bin/zsh
+    ```
 
-    # Install GCC.
+4. Install GCC (optional)
+
+    ```bash
     brew tap homebrew/versions
     brew install gcc46
+    ```
 
-    # Vim Setup Install.
+5. Symlink VIM configuration and install plugins via Vundle
+
+    ```bash
     ln -s ~/dotfiles/vim ~/.vim
-    ln -s ~/dotfiles/vimrc ~/.vimrc
-    ln -s ~/dotfiles/gvimrc ~/.gvimrc
-    ln -s ~/dotfiles/ideavim ~/.ideavim
+    ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+    ln -s ~/dotfiles/vim/gvimrc ~/.gvimrc
+    ln -s ~/dotfiles/vim/ideavim ~/.ideavim
 
-    # Vundle for Vim plugins.
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
     vim +BundleInstall +qall
+    ```
 
-    # Link up Git files.
+6. Install system level packages
+
+    ```bash
+    source ~/.zshrc
+
+    sudo npm -g install grunt-cli karma bower nodemon
+    sudo pip install -r ~/dotfiles/setup/requirements.txt
+    sh setup/gems
+    ```
+
+7. Symlink remaining configuration files
+
+    ```bash
     ln -s ~/dotfiles/git/gitignore ~/.gitignore
     ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 
-    # Python Pip & Modules.
-    sudo pip install -r ~/dotfiles/setup/requirements.txt
-
-    # npm Modules.
-    sudo npm -g install grunt-cli karma bower nodemon
-
-    source ~/.zshrc
-    sh setup/gems
-
-    # Last couple things to symlink.
     ln -s ~/dotfiles/dircolors ~/.dircolors
 
-    # These symlinks need to be done after manually install apps.
     ln -s ~/Dropbox/sample ~/sample
+    ln -s ~/Dropbox/tvm-records ~/tvm-records
+    ln -s ~/Dropbox/tvm-exports ~/tvm-exports
+    ```
 
-    # Finally, set load the osx defaults.
+8. Configure Mac OS settings (optional)
+
+    ```bash
     sh setup/osx
+    ```
 
-### Manual Themes Setup
+### Manual Theme Setup
 
 Change iterm2 profile theme:
 
@@ -70,20 +93,20 @@ Change iterm2 profile theme:
 
 ### Applications
 
-The following are dev-apps that I install automatically.
+The following are dev-apps that I install manually.
 
 * iTerm2, [http://iterm2.com/downloads.html](http://iterm2.com/downloads.html)
 * LaTeX, [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
 * WebStorm, [http://www.jetbrains.com/webstorm/](http://www.jetbrains.com/webstorm/)
-* PyCharm CE, [http://www.jetbrains.com/pycharm/download/](http://www.jetbrains.com/pycharm/download/)
+* PyCharm, [http://www.jetbrains.com/pycharm/download/](http://www.jetbrains.com/pycharm/download/)
 * Mou, [http://mouapp.com/](http://mouapp.com/)
 * VirtualBox, [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
-* Vagrant, [http://www.vagrantup.com/downloads.html](http://www.vagrantup.com/downloads.html)
-* ChefDK, [http://downloads.getchef.com/chef-dk/mac/#/](http://downloads.getchef.com/chef-dk/mac/#/)
 
-The following are non-developer specific applications I also use.
+The following applications can all be installed via `brew-cask`:
 
+```
 skype, vlc, transmission, google-chrome, firefox, appcleaner, alfred, dropbox, android-file-transfer, the-unarchiver, cyberduck, spotify, fitbit-connect
+```
 
 ### Prompt Git Symbols (RHS)
 
