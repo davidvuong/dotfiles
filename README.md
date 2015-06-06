@@ -74,6 +74,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     ln -s ~/Dropbox/sample ~/sample
     ln -s ~/Dropbox/tvm-records ~/tvm-records
     ln -s ~/Dropbox/tvm-exports ~/tvm-exports
+    ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
     ```
 
 8. Configure Mac OS settings (optional)
