@@ -59,8 +59,9 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     source ~/.zshrc
 
     sudo npm -g install grunt-cli karma bower nodemon
+
+    pip install --upgrade pip
     sudo pip install -r ~/dotfiles/setup/requirements.txt
-    sh setup/gems
     ```
 
 7. Symlink remaining configuration files
