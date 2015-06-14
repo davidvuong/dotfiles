@@ -88,7 +88,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 Change iterm2 profile theme:
 
     iTerm>Preferences>Profiles>Colors>Load Presets...
-    ... locate ~/dotfiles/iterm2/solarized
+    ... locate ~/dotfiles/iterm2-themes/
     ... import theme (dark or light)
     ... load theme (dark or light)
 
