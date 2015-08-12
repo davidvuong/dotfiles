@@ -18,11 +18,11 @@ cache-size=500
 # R0201 Method could be a function
 # E1103 %s %r has no %r member (but some types could not be inferred)
 # W0622 Redefining built-in 'id'
-disable=C0111,I0011,I0012,W0141,W0142,W0212,W0232,W0613,W0702,R0201,E1103,W0511,W0703,W0622
+# E701  Muli-statement likes (if True: return)
+disable=C0111,I0011,I0012,W0141,W0142,W0212,W0232,W0613,W0702,R0201,E1103,W0511,W0703,W0622,E701
 
 [REPORTS]
 msg-template={path}:{line}: [{msg_id}({symbol}), {obj}] {msg}
-include-ids=yes
 
 [BASIC]
 no-docstring-rgx=__.*__|_.*
@@ -40,7 +40,6 @@ good-names=_,i,j,k,e,qs,pk,setUp,tearDown,ID
 bad-functions=apply,input,ipdb
 
 [TYPECHECK]
-
 # Tells whether missing members accessed in mixin class should be ignored. A
 # mixin class is detected if its name ends with "mixin" (case insensitive).
 ignore-mixin-members=yes
