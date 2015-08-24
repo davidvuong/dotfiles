@@ -72,7 +72,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 
     ln -s ~/dotfiles/dircolors ~/.dircolors
 
-    ln -s ~/Dropbox/sample ~/sample
+    ln -s ~/Dropbox/workspace ~/workspace
     ln -s ~/Dropbox/tvm-records ~/tvm-records
     ln -s ~/Dropbox/tvm-exports ~/tvm-exports
     ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
