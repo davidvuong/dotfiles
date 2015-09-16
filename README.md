@@ -4,23 +4,23 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
 
 ### Install
 
-1. Clone dotfiles repository
+1. Clone dotfiles repository:
 
     ```bash
     git clone https://github.com/davidvuong/dotfiles ~/dotfiles
     cd ~/dotfiles
     ```
 
-2. Install `brew` and brews
+1. Install `brew` and brews:
 
     ```bash
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     sh setup/brews
     ```
 
-3. Setup zsh with custom Prezto configuration
+1. Setup zsh with custom Prezto configuration
 
-    ```zsh
+    ```bash
     zsh
     git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto"
 
@@ -34,14 +34,24 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     chsh -s /bin/zsh
     ```
 
-4. Install GCC (optional)
+1. Setup NVM after installing `nvm` from `brews`:
+
+    ```bash
+    mkdir ~/.nvm
+    cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
+
+    nvm install v4.0.0
+    nvm alias default v4.0.0
+    ```
+
+1. Install GCC (optional)
 
     ```bash
     brew tap homebrew/versions
     brew install gcc46
     ```
 
-5. Symlink VIM configuration and install plugins via Vundle
+1. Symlink VIM configuration and install plugins via Vundle
 
     ```bash
     ln -s ~/dotfiles/vim ~/.vim
@@ -53,7 +63,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     vim +BundleInstall +qall
     ```
 
-6. Install system level packages
+1. Install system level packages
 
     ```bash
     source ~/.zshrc
@@ -64,7 +74,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     sudo pip install -r ~/dotfiles/setup/requirements.txt
     ```
 
-7. Symlink remaining configuration files
+1. Symlink remaining configuration files
 
     ```bash
     ln -s ~/dotfiles/git/gitignore ~/.gitignore
@@ -78,7 +88,7 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
     ```
 
-8. Configure Mac OS settings (optional)
+1. Configure Mac OS settings (optional)
 
     ```bash
     sh setup/osx

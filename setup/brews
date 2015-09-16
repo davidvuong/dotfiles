@@ -23,6 +23,9 @@ brew install python
 # Frameworks.
 brew install node
 
+# Version managers.
+brew install nvm
+
 # Other programs.
 brew install macvim
 brew install graphviz
