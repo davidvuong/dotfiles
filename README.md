@@ -1,8 +1,10 @@
-### Prerequisites
-
-You must have the latest version of Xcode & the command-line tools for Xcode installed.
-
 ### Install
+
+1. Install Xcode and Xcode command-line tools:
+
+    ```
+    xcode-select --install
+    ```
 
 1. Clone dotfiles repository:
 
