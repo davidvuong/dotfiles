@@ -40,8 +40,8 @@ You must have the latest version of Xcode & the command-line tools for Xcode ins
     mkdir ~/.nvm
     cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
 
-    nvm install v4.0.0
-    nvm alias default v4.0.0
+    nvm install v5.0.0
+    nvm alias default v5.0.0
     ```
 
 1. Install GCC (optional)
