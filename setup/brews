@@ -20,15 +20,15 @@ brew install ack
 brew install python3
 brew install python
 
-# Frameworks.
-brew install node
-
 # Version managers.
 brew install nvm
 
 # Other programs.
 brew install macvim
 brew install graphviz
+
+# Brew cask to install GUI applications.
+brew install caskroom/cask/brew-cask
 
 # Remove outdated versions from the cellar.
 brew cleanup

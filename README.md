@@ -9,7 +9,7 @@
 1. Clone dotfiles repository:
 
     ```bash
-    git clone https://github.com/davidvuong/dotfiles ~/dotfiles
+    git clone git@github.com:davidvuong/dotfiles.git ~/dotfiles
     cd ~/dotfiles
     ```
 
@@ -20,7 +20,7 @@
     sh setup/brews
     ```
 
-1. Setup zsh with custom Prezto configuration
+1. Setup zsh with custom Prezto configuration:
 
     ```bash
     zsh
@@ -46,14 +46,14 @@
     nvm alias default v5.0.0
     ```
 
-1. Install GCC (optional)
+1. Install GCC (optional):
 
     ```bash
     brew tap homebrew/versions
     brew install gcc46
     ```
 
-1. Symlink VIM configuration and install plugins via Vundle
+1. Symlink VIM configuration and install plugins via Vundle:
 
     ```bash
     ln -s ~/dotfiles/vim ~/.vim
@@ -65,7 +65,7 @@
     vim +BundleInstall +qall
     ```
 
-1. Install system level packages
+1. Install system level packages:
 
     ```bash
     source ~/.zshrc
@@ -76,13 +76,15 @@
     sudo pip install -r ~/dotfiles/setup/requirements.txt
     ```
 
-1. Symlink remaining configuration files
+1. Symlink remaining configuration files:
 
     ```bash
     ln -s ~/dotfiles/git/gitignore ~/.gitignore
     ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 
     ln -s ~/dotfiles/dircolors ~/.dircolors
+
+1. Symlink Dropbox directories and files:
 
     ln -s ~/Dropbox/workspace ~/workspace
     ln -s ~/Dropbox/tvm-records ~/tvm-records
@@ -111,19 +113,7 @@ The following are dev-apps that I install manually.
 
 * iTerm2, [http://iterm2.com/downloads.html](http://iterm2.com/downloads.html)
 * LaTeX, [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
-* WebStorm, [http://www.jetbrains.com/webstorm/](http://www.jetbrains.com/webstorm/)
-* PyCharm, [http://www.jetbrains.com/pycharm/download/](http://www.jetbrains.com/pycharm/download/)
-* Mou, [http://mouapp.com/](http://mouapp.com/)
-* VirtualBox, [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
-
-The following applications can all be installed via `brew-cask`:
-
-```
-skype, vlc, transmission, google-chrome, firefox, appcleaner, alfred, dropbox, android-file-transfer, the-unarchiver, cyberduck, spotify, fitbit-connect
-```
 
 ### Prompt Git Symbols (RHS)
-
-For details on the symbols on the RHS of the prompt, refer to:
 
 [https://github.com/sorin-ionescu/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup](https://github.com/sorin-ionescu/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup)
