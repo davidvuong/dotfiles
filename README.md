@@ -1,26 +1,34 @@
-### Install
+## davidvuong's dotfiles
 
-1. Install Xcode and Xcode command-line tools:
+### Setup and install
 
-    ```
-    xcode-select --install
-    ```
+1. Download and install iTerm2:
 
-1. Clone dotfiles repository:
+  * iTerm2, [http://iterm2.com/downloads.html](http://iterm2.com/downloads.html)
 
-    ```bash
-    git clone git@github.com:davidvuong/dotfiles.git ~/dotfiles
-    cd ~/dotfiles
-    ```
+1. Download and install Xcode:
 
-1. Install `brew` and brews:
+  ```
+  xcode-select --install
+  ```
 
-    ```bash
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    sh setup/brews
-    ```
+1. Clone the repository:
 
-1. Setup zsh with custom Prezto configuration:
+  ```bash
+  git clone git@github.com:davidvuong/dotfiles.git ~/dotfiles
+  cd ~/dotfiles
+  ```
+
+1. Install homebrew, brews, brew-casks and casks:
+
+  ```bash
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+  sh setup/brews
+  sh setup/casks
+  ```
+
+1. Clone and setup my personal prezto fork:
 
     ```bash
     zsh
@@ -36,7 +44,8 @@
     chsh -s /bin/zsh
     ```
 
-1. Setup NVM after installing `nvm` from `brews`:
+1. Install NVM (Node Version Manager) and Node:
+
 
     ```bash
     mkdir ~/.nvm
@@ -46,14 +55,7 @@
     nvm alias default v5.0.0
     ```
 
-1. Install GCC (optional):
-
-    ```bash
-    brew tap homebrew/versions
-    brew install gcc46
-    ```
-
-1. Symlink VIM configuration and install plugins via Vundle:
+1. Install and setup VIM (+ plugins via Vundle):
 
     ```bash
     ln -s ~/dotfiles/vim ~/.vim
@@ -65,7 +67,7 @@
     vim +BundleInstall +qall
     ```
 
-1. Install system level packages:
+1. Install a few system level packages:
 
     ```bash
     source ~/.zshrc
@@ -85,7 +87,7 @@
     ln -s ~/dotfiles/dircolors ~/.dircolors
     ```
 
-1. Symlink Dropbox directories and files:
+1. Symlink Dropbox directories and files (skip):
 
     ```
     ln -s ~/Dropbox/workspace ~/workspace
@@ -94,28 +96,25 @@
     ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
     ```
 
-1. Configure Mac OS settings (optional)
+1. Configure Mac OS settings (optional):
 
     ```bash
     sh setup/osx
     ```
 
-### Manual Theme Setup
+### Manual theme setup
 
-Change iterm2 profile theme:
+Change the iTerm2 profile theme:
 
     iTerm>Preferences>Profiles>Colors>Load Presets...
     ... locate ~/dotfiles/iterm2-themes/
     ... import theme (dark or light)
     ... load theme (dark or light)
 
-### Applications
+### LaTeX
 
-The following are dev-apps that I install manually.
-
-* iTerm2, [http://iterm2.com/downloads.html](http://iterm2.com/downloads.html)
 * LaTeX, [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
 
-### Prompt Git Symbols (RHS)
+### Prompt git symbols (RHS)
 
 [https://github.com/sorin-ionescu/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup](https://github.com/sorin-ionescu/prezto/blob/master/modules/prompt/functions/prompt_sorin_setup)
