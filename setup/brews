@@ -16,6 +16,17 @@ brew install gcal
 brew install cloc
 brew install ack
 
+# Libraries.
+brew install libffi
+
+# PostgreSQL + PostGIS.
+brew install postgis
+brew install gdal
+brew install libgeoip
+
+brew install redis
+brew install rabbitmq
+
 # Languages.
 brew install python3
 brew install python
