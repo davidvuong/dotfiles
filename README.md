@@ -83,9 +83,11 @@
     ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 
     ln -s ~/dotfiles/dircolors ~/.dircolors
+    ```
 
 1. Symlink Dropbox directories and files:
 
+    ```
     ln -s ~/Dropbox/workspace ~/workspace
     ln -s ~/Dropbox/tvm-records ~/tvm-records
     ln -s ~/Dropbox/tvm-exports ~/tvm-exports
