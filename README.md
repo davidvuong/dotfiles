@@ -51,8 +51,8 @@
     mkdir ~/.nvm
     cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
 
-    nvm install v5.0.0
-    nvm alias default v5.0.0
+    nvm install v5.1.0
+    nvm alias default v5.1.0
     ```
 
 1. Install and setup VIM (+ plugins via Vundle):
