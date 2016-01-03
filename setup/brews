@@ -6,7 +6,10 @@ brew upgrade
 brew install zsh
 brew install git
 brew install coreutils
+
+# Network tools.
 brew install nmap
+brew install iftop
 
 # Development & general tools.
 brew install htop
