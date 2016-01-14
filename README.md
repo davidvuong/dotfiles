@@ -29,7 +29,7 @@ I also use iTerm2 instead of the default Terminal.app, you can download that [he
   sh ./scripts/install.sh
   ```
 
-1. Add symlinks to directories and files connected to my Dropbox:
+1. Add symlinks to directories and files connected to my Dropbox (optional):
 
   ```
   ln -s ~/Dropbox/workspace ~/workspace
