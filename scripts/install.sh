@@ -32,7 +32,7 @@ ln -s ~/dotfiles/vim/ideavim ~/.ideavim
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 vim +BundleInstall +qall
 
-sudo npm -g install grunt-cli karma bower nodemon
+sh setup/npm.sh
 
 pip install --upgrade pip
 sudo pip install -r ~/dotfiles/setup/requirements.txt
