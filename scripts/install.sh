@@ -2,8 +2,8 @@
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-sh setup/brews
-sh setup/casks
+sh setup/brews.sh
+sh setup/casks.sh
 
 zsh
 git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto"

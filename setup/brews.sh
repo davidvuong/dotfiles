@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Makes sure we're on the latest version.
 brew update
 brew upgrade
