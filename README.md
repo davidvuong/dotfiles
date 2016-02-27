@@ -33,8 +33,7 @@ I also use iTerm2 instead of the default Terminal.app, you can download that [he
 
   ```
   ln -s ~/Dropbox/workspace ~/workspace
-  ln -s ~/Dropbox/tvm-records ~/tvm-records
-  ln -s ~/Dropbox/tvm-exports ~/tvm-exports
+  ln -s ~/Dropbox/tvm-records ~/.tvm-records
   ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
   ```
 
