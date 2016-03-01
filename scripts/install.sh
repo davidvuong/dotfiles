@@ -21,6 +21,8 @@ source ~/.zshrc
 mkdir ~/.nvm
 cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
 
+source ~/.zshrc
+
 nvm install v5.1.0
 nvm alias default v5.1.0
 
