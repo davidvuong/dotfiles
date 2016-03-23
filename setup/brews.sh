@@ -37,6 +37,9 @@ brew install rabbitmq
 brew install python3
 brew install python
 
+# JavaScript
+brew install flow
+
 # Version managers.
 brew install nvm
 

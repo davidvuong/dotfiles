@@ -1,0 +1,11 @@
+apm install vim-mode
+apm install ex-mode
+apm install merge-conflicts
+apm install ide-flow
+apm install color-picker
+apm install linter
+apm install minimap
+apm install file-icons
+apm install react
+apm install pigments
+apm install linter-eslint

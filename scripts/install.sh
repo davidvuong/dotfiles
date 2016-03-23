@@ -35,6 +35,7 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 vim +BundleInstall +qall
 
 sh setup/npm.sh
+sh setup/apm.sh
 
 pip install --upgrade pip
 sudo pip install -r ~/dotfiles/setup/requirements.txt

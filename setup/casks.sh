@@ -16,5 +16,6 @@ brew cask install virtualbox
 brew cask install webstorm
 brew cask install pycharm
 brew cask install mou
+brew cask install atom
 
 brew cleanup

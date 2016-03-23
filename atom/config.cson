@@ -1,0 +1,14 @@
+"*":
+  core:
+    projectHome: "/Users/davidvuong/workspace"
+  editor:
+    invisibles: {}
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "8991e331-2ae6-9155-bc53-c5a53eb5a626"
+  welcome:
+    showOnStartup: false
