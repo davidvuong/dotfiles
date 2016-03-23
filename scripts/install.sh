@@ -37,6 +37,11 @@ vim +BundleInstall +qall
 sh setup/npm.sh
 sh setup/apm.sh
 
+~/dotfiles/atom/config.cson ~/.atom/
+~/dotfiles/atom/keymap.cson ~/.atom/
+~/dotfiles/atom/snippets.cson ~/.atom/
+~/dotfiles/atom/styles.less ~/.atom/
+
 pip install --upgrade pip
 sudo pip install -r ~/dotfiles/setup/requirements.txt
 
