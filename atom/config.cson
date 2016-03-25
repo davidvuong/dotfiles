@@ -1,5 +1,8 @@
 "*":
   core:
+    disabledPackages: [
+      "ide-flow"
+    ]
     projectHome: "/Users/davidvuong/workspace"
   editor:
     fontSize: 12
