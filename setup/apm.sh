@@ -15,3 +15,5 @@ apm install highlight-selected
 apm install autoclose-html
 apm install auto-detect-indentation
 apm install atom-beautify
+apm install term2
+apm install advanced-open-file
