@@ -23,8 +23,8 @@ cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
 
 source ~/.zshrc
 
-nvm install v5.1.0
-nvm alias default v5.1.0
+nvm install v5.9.1
+nvm alias default v5.9.1
 
 ln -s ~/dotfiles/vim ~/.vim
 ln -s ~/dotfiles/vim/vimrc ~/.vimrc
