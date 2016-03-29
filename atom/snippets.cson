@@ -26,8 +26,3 @@
   'HashBang':
     'prefix': 'hb',
     'body': '#!/usr/bin/env node\n'
-
-'.source.py':
-  'Pdb Debugger':
-    'prefix': 'db'
-    'body': 'import pdb; pdb.set_trace()\n'
