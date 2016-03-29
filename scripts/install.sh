@@ -37,6 +37,7 @@ vim +BundleInstall +qall
 sh setup/npm.sh
 sh setup/apm.sh
 
+mkdir ~/.atom
 ln -s ~/dotfiles/atom/config.cson ~/.atom/
 ln -s ~/dotfiles/atom/keymap.cson ~/.atom/
 ln -s ~/dotfiles/atom/snippets.cson ~/.atom/
