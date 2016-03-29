@@ -15,5 +15,9 @@
   "exception-reporting":
     userId: "8991e331-2ae6-9155-bc53-c5a53eb5a626"
   minimap: {}
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
