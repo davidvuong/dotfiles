@@ -29,3 +29,6 @@
 'body':
   'cmd-shift-O': 'unset!'
   'cmd-shift-O': 'fuzzy-finder:toggle-file-finder'
+
+'atom-text-editor':
+  'cmd-alt-l': 'atom-beautify:beautify-editor'
