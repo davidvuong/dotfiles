@@ -16,3 +16,4 @@ apm install autoclose-html
 apm install auto-detect-indentation
 apm install atom-beautify
 apm install advanced-open-file
+apm install emmet
