@@ -1,6 +1,7 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "666e837d-bf1e-4d7a-a469-71677e8ac0cc"
+    general:
+      _analyticsUserId: "666e837d-bf1e-4d7a-a469-71677e8ac0cc"
   core:
     disabledPackages: [
       "ide-flow"
