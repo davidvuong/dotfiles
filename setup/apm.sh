@@ -17,3 +17,8 @@ apm install auto-detect-indentation
 apm install atom-beautify
 apm install advanced-open-file
 apm install emmet
+apm install synced-sidebar
+apm install git-time-machine
+apm install git-blame
+apm install autocomplete-paths
+apm install autocomplete-modules
