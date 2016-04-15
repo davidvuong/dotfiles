@@ -19,6 +19,7 @@
     disabledPackages: [
       "ide-flow"
       "tree-view"
+      "linter"
     ]
     projectHome: "/Users/davidvuong/workspace"
   editor:
@@ -33,6 +34,7 @@
     userId: "8991e331-2ae6-9155-bc53-c5a53eb5a626"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
+  "linter-eslint": {}
   minimap: {}
   nuclide:
     installRecommendedPackages: true
@@ -47,6 +49,8 @@
     "nuclide-format-js": {}
     "nuclide-hack": {}
     "nuclide-health": {}
+    "nuclide-home":
+      showHome: false
     "nuclide-ios-simulator-logs": {}
     "nuclide-ocaml": {}
     "nuclide-python": {}
