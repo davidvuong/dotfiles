@@ -46,6 +46,7 @@ brew install nvm
 # Other programs.
 brew install macvim
 brew install graphviz
+brew install watchman
 
 # Brew cask to install GUI applications.
 brew install caskroom/cask/brew-cask
