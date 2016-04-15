@@ -3,8 +3,22 @@
     general:
       _analyticsUserId: "666e837d-bf1e-4d7a-a469-71677e8ac0cc"
   core:
+    audioBeep: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     disabledPackages: [
       "ide-flow"
+      "tree-view"
     ]
     projectHome: "/Users/davidvuong/workspace"
   editor:
@@ -17,10 +31,44 @@
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "8991e331-2ae6-9155-bc53-c5a53eb5a626"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
   minimap: {}
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-adb-logcat": {}
+    "nuclide-arcanist": {}
+    "nuclide-buck-files": {}
+    "nuclide-clang-atom": {}
+    "nuclide-console": {}
+    "nuclide-datatip": {}
+    "nuclide-debugger-hhvm": {}
+    "nuclide-flow": {}
+    "nuclide-format-js": {}
+    "nuclide-hack": {}
+    "nuclide-health": {}
+    "nuclide-ios-simulator-logs": {}
+    "nuclide-ocaml": {}
+    "nuclide-python": {}
+    "nuclide-react-native": {}
+    "nuclide-working-sets": {}
+  "tool-bar":
+    position: "Left"
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
+".ansi.text":
+  editor:
+    preferredLineLength: 120
+".hack.html.text":
+  editor:
+    preferredLineLength: 120
+".hackfragment.source":
+  editor:
+    preferredLineLength: 120
+".hg-commit.text":
+  editor:
+    preferredLineLength: 120
