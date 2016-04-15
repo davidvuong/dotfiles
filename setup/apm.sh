@@ -13,7 +13,6 @@ apm install git-blame
 apm install git-time-machine
 apm install highlight-selected
 apm install language-babel
-apm install linter
 apm install linter-eslint
 apm install merge-conflicts
 apm install minimap
