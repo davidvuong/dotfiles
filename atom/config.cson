@@ -17,9 +17,7 @@
         "BUCK"
       ]
     disabledPackages: [
-      "ide-flow"
       "tree-view"
-      "linter"
     ]
     projectHome: "/Users/davidvuong/workspace"
   editor:
@@ -29,6 +27,7 @@
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+    softWrap: true
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "8991e331-2ae6-9155-bc53-c5a53eb5a626"
@@ -45,6 +44,8 @@
     "nuclide-console": {}
     "nuclide-datatip": {}
     "nuclide-debugger-hhvm": {}
+    "nuclide-file-tree":
+      revealFileOnSwitch: true
     "nuclide-flow": {}
     "nuclide-format-js": {}
     "nuclide-hack": {}
@@ -56,6 +57,18 @@
     "nuclide-python": {}
     "nuclide-react-native": {}
     "nuclide-working-sets": {}
+    use:
+      "nuclide-buck-files": false
+      "nuclide-buck-toolbar": false
+      "nuclide-debugger-hhvm": false
+      "nuclide-diagnostics-store": false
+      "nuclide-diagnostics-ui": false
+      "nuclide-diff-view": false
+      "nuclide-distraction-free-mode": false
+      "nuclide-hack": false
+      "nuclide-hack-symbol-provider": false
+      "nuclide-hg-repository": false
+      "nuclide-hhvm-toolbar": false
   "tool-bar":
     position: "Left"
   "tree-view":
