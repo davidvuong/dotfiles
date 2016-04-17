@@ -47,7 +47,11 @@
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
   "linter-eslint": {}
-  minimap: {}
+  minimap:
+    minimapScrollIndicator: false
+    plugins:
+      linter: true
+      linterDecorationsZIndex: 0
   nuclide:
     installRecommendedPackages: true
     "nuclide-adb-logcat": {}

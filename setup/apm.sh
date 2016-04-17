@@ -17,6 +17,7 @@ apm install linter
 apm install linter-eslint
 apm install merge-conflicts
 apm install minimap
+apm install minimap-linter
 apm install nuclide
 apm install pigments
 apm install react
