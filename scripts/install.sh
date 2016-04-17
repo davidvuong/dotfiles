@@ -5,18 +5,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 sh setup/brews.sh
 sh setup/casks.sh
 
-zsh
-git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto"
-
-setopt EXTENDED_GLOB
-for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-    ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-done
-
-ln -s ~/.zprezto/zsh_nocorrect ~/zsh_nocorrect
-
-chsh -s /bin/zsh
-source ~/.zshrc
+sudo ./install_zsh.zsh
 
 mkdir ~/.nvm
 cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
@@ -43,7 +32,7 @@ ln -s ~/dotfiles/atom/keymap.cson ~/.atom/
 ln -s ~/dotfiles/atom/snippets.cson ~/.atom/
 ln -s ~/dotfiles/atom/styles.less ~/.atom/
 
-pip install --upgrade pip
+sudo pip install --upgrade pip
 sudo pip install -r ~/dotfiles/setup/requirements.txt
 
 ln -s ~/dotfiles/git/gitignore ~/.gitignore
