@@ -4,6 +4,7 @@
       _analyticsUserId: "666e837d-bf1e-4d7a-a469-71677e8ac0cc"
   core:
     audioBeep: false
+    closeEmptyWindows: false
     customFileTypes:
       "source.ini": [
         ".buckconfig"
@@ -18,6 +19,18 @@
       ]
     disabledPackages: [
       "tree-view"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".idea"
+      "*.pyc"
+      "*.egg-info"
+      "*.egg"
     ]
     projectHome: "/Users/davidvuong/workspace"
   editor:
