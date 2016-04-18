@@ -19,6 +19,7 @@
       ]
     disabledPackages: [
       "tree-view"
+      "language-babel"
     ]
     ignoredNames: [
       ".git"
@@ -46,6 +47,8 @@
     userId: "8991e331-2ae6-9155-bc53-c5a53eb5a626"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
+  "ide-flow":
+    flowPath: "/usr/local/bin/flow"
   "linter-eslint": {}
   minimap:
     minimapScrollIndicator: false
@@ -86,6 +89,7 @@
       "nuclide-hack-symbol-provider": false
       "nuclide-hg-repository": false
       "nuclide-hhvm-toolbar": false
+  react: {}
   "tool-bar":
     position: "Left"
   "tree-view":
@@ -97,6 +101,9 @@
 ".ansi.text":
   editor:
     preferredLineLength: 120
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 120
 ".hack.html.text":
   editor:
     preferredLineLength: 120
@@ -104,5 +111,8 @@
   editor:
     preferredLineLength: 120
 ".hg-commit.text":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
   editor:
     preferredLineLength: 120
