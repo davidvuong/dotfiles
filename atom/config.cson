@@ -2,6 +2,7 @@
   "atom-beautify":
     general:
       _analyticsUserId: "666e837d-bf1e-4d7a-a469-71677e8ac0cc"
+      analytics: false
   core:
     audioBeep: false
     closeEmptyWindows: false
