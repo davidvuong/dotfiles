@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+brew tap caskroom/versions
+
 brew cask install skype
 brew cask install vlc
 brew cask install transmission
@@ -15,6 +17,7 @@ brew cask install spotify
 brew cask install virtualbox
 brew cask install webstorm
 brew cask install pycharm
+brew cask install intellij-idea-ce
 brew cask install mou
 brew cask install atom
 
