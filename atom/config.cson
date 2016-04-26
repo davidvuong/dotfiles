@@ -51,6 +51,9 @@
   "ide-flow":
     flowPath: "/usr/local/bin/flow"
   "linter-eslint": {}
+  "linter-flake8":
+    maxLineLength: 120
+    pep8ErrorsToWarnings: true
   minimap:
     minimapScrollIndicator: false
     plugins:
