@@ -16,6 +16,7 @@ apm install highlight-selected
 apm install language-babel
 apm install linter
 apm install linter-eslint
+apm install linter-flake8
 apm install merge-conflicts
 apm install minimap
 apm install minimap-linter
