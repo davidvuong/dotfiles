@@ -26,3 +26,7 @@
   'HashBang':
     'prefix': 'hb'
     'body': '#!/usr/bin/env node\n'
+'.source.python':
+  'HashBang':
+    'prefix': 'hb'
+    'body': '#!/usr/bin/env python\n# -*- coding: utf-8 -*-\n'
