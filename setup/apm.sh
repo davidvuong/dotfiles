@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 apm install atom-beautify
+apm install atom-typescript
 apm install auto-detect-indentation
 apm install autoclose-html
 apm install autocomplete-modules
