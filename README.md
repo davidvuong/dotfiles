@@ -2,7 +2,7 @@
 
 **Welcome to my dotfiles!**
 
-This repository is a collection of configuration files I personally use to setup my Mac OS X El Capitan machine. It uses Homebrew/Casks to manage most of my applications, ZSH as the shell (zprezto flavour) and VIM as the terminal editor. It also contains a few "me" specific configuration files e.g. `./git/gitconfig` so if you're interested in pick files out of this project, you may want to leave those out.
+This repository is a collection of configuration files I personally use to setup my Mac OS X El Capitan machine. It uses Homebrew/Casks to manage most of my applications, ZSH as the shell (zprezto flavour) and VIM as the terminal editor. It also contains a few "me" specific configuration files e.g. `./git/gitconfig` so if you're interested in using my dotfiles, you may want to leave those out!
 
 ## System Requirements
 
