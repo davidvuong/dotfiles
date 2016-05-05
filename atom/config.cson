@@ -33,6 +33,7 @@
       "*.pyc"
       "*.egg-info"
       "*.egg"
+      "build"
     ]
     projectHome: "/Users/davidvuong/workspace"
   editor:
