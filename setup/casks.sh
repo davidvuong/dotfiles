@@ -20,5 +20,6 @@ brew cask install pycharm
 brew cask install intellij-idea-ce
 brew cask install mou
 brew cask install atom
+brew cask install pgadmin3
 
 brew cleanup
