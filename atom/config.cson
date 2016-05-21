@@ -21,6 +21,7 @@
       ]
     disabledPackages: [
       "language-babel"
+      "language-ocaml"
     ]
     ignoredNames: [
       ".git"
@@ -34,10 +35,12 @@
       "*.egg-info"
       "*.egg"
       "build"
-      "./node_modules"
+      "node_modules"
     ]
+    openEmptyEditorOnStart: false
     projectHome: "/Users/davidvuong/workspace"
   editor:
+    autoIndentOnPaste: false
     fontSize: 12
     invisibles: {}
     preferredLineLength: 120
@@ -84,6 +87,8 @@
     "nuclide-react-native": {}
     "nuclide-working-sets": {}
     use:
+      "nuclide-blame-provider-hg": false
+      "nuclide-buck": false
       "nuclide-buck-files": false
       "nuclide-buck-toolbar": false
       "nuclide-debugger-hhvm": false
@@ -96,9 +101,11 @@
       "nuclide-hack-symbol-provider": false
       "nuclide-hg-repository": false
       "nuclide-hhvm-toolbar": false
+      "nuclide-ios-simulator-logs": false
       "nuclide-language-hack": false
       "nuclide-objc": false
       "nuclide-ocaml": false
+      "nuclide-test-runner": false
   react: {}
   "tool-bar":
     position: "Left"
