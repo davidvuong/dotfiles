@@ -27,7 +27,7 @@
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
 
 'body':
-  'cmd-shift-O': 'nuclide-fuzzy-filename-provider:toggle-provider'
+  'cmd-shift-O': 'fuzzy-finder:toggle-file-finder'
 
 'atom-text-editor':
   'cmd-alt-l': 'atom-beautify:beautify-editor'
