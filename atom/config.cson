@@ -20,7 +20,6 @@
         "BUCK"
       ]
     disabledPackages: [
-      "tree-view"
       "language-babel"
     ]
     ignoredNames: [
@@ -35,6 +34,7 @@
       "*.egg-info"
       "*.egg"
       "build"
+      "./node_modules"
     ]
     projectHome: "/Users/davidvuong/workspace"
   editor:
@@ -91,10 +91,14 @@
       "nuclide-diagnostics-ui": false
       "nuclide-diff-view": false
       "nuclide-distraction-free-mode": false
+      "nuclide-file-tree": false
       "nuclide-hack": false
       "nuclide-hack-symbol-provider": false
       "nuclide-hg-repository": false
       "nuclide-hhvm-toolbar": false
+      "nuclide-language-hack": false
+      "nuclide-objc": false
+      "nuclide-ocaml": false
   react: {}
   "tool-bar":
     position: "Left"
