@@ -41,7 +41,7 @@
     projectHome: "/Users/davidvuong/workspace"
   editor:
     autoIndentOnPaste: false
-    fontSize: 12
+    fontSize: 13
     invisibles: {}
     preferredLineLength: 120
     scrollPastEnd: true
@@ -55,6 +55,8 @@
     promptWhenFileHasChangedOnDisk: false
   "ide-flow":
     flowPath: "/usr/local/bin/flow"
+  linter:
+    showErrorPanel: false
   "linter-eslint": {}
   "linter-flake8":
     maxLineLength: 120
