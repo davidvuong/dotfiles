@@ -15,9 +15,6 @@ brew cask install the-unarchiver
 brew cask install cyberduck
 brew cask install spotify
 brew cask install virtualbox
-brew cask install webstorm
-brew cask install pycharm
-brew cask install intellij-idea-ce
 brew cask install mou
 brew cask install atom
 brew cask install pgadmin3
