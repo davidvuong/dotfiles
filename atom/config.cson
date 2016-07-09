@@ -22,6 +22,7 @@
     disabledPackages: [
       "language-babel"
       "language-ocaml"
+      "nuclide"
     ]
     ignoredNames: [
       ".git"
@@ -55,8 +56,7 @@
     promptWhenFileHasChangedOnDisk: false
   "ide-flow":
     flowPath: "/usr/local/bin/flow"
-  linter:
-    showErrorPanel: false
+  linter: {}
   "linter-eslint": {}
   "linter-flake8":
     maxLineLength: 120
@@ -76,6 +76,7 @@
     "nuclide-console": {}
     "nuclide-datatip": {}
     "nuclide-debugger-hhvm": {}
+    "nuclide-debugger-lldb-client": {}
     "nuclide-file-tree":
       revealFileOnSwitch: true
     "nuclide-flow": {}
