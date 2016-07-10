@@ -37,6 +37,7 @@ brew install rabbitmq
 # Languages.
 brew install python3
 brew install python
+brew install scala
 
 # JavaScript
 brew install flow
