@@ -37,6 +37,9 @@ Bundle 'sjl/gundo.vim'
 " Coffee-script syntax highlighting.
 Bundle 'kchmck/vim-coffee-script'
 
+" Scala syntax highlighting.
+Bundle 'derekwyatt/vim-scala'
+
 " Automatically add 'end' to certain structures in ruby.
 Bundle 'tpope/vim-endwise.git'
 
