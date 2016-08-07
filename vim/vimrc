@@ -38,4 +38,4 @@ set wildignore+=*.png,*.jpg,*.gif
 " and it will revert back to the default mode_map dict.
 let g:syntastic_mode_map = {"mode": "active",
                           \ "active_filetypes": [],
-                          \ "passive_filetypes": ["tex", "python", "html", "less", "cpp"]}
+                          \ "passive_filetypes": ["tex", "python", "scala", "html", "less", "cpp"]}
