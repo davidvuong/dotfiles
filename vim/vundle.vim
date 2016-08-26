@@ -64,6 +64,9 @@ Bundle 'tpope/vim-surround.git'
 " readline mappings for insert and command mode (normal mode omitted).
 Bundle 'tpope/vim-rsi'
 
+" @see: https://github.com/tpope/vim-unimpaired
+Bundle 'tpope/vim-unimpaired.git'
+
 " Searches through live buffers to find given strings.
 Bundle 'sjbach/lusty.git'
 
