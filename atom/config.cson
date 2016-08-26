@@ -62,7 +62,6 @@
     maxLineLength: 120
     pep8ErrorsToWarnings: true
   minimap:
-    absoluteMode: true
     minimapScrollIndicator: false
     plugins:
       linter: true
