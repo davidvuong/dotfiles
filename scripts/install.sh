@@ -23,6 +23,11 @@ ln -s ~/dotfiles/vim/ideavim ~/.ideavim
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 vim +BundleInstall +qall
 
+# Command-T requires an additional compilation step.
+cd ~/.vim/bundle/command-t/
+rake make
+cd -
+
 sh setup/npm.sh
 sh setup/apm.sh
 
