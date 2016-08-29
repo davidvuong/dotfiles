@@ -21,10 +21,14 @@ Bundle 'vim-scripts/AnsiEsc.vim.git'
 
 " Git.
 Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
 
 " FuzzyFinder depends on the L9 library.
 Bundle 'vim-scripts/L9'
 Bundle 'FuzzyFinder'
+
+" More quality of life improvements (file navigation/search).
+Bundle 'wincent/command-t'
 
 " NERDTree + extensions.
 Bundle 'scrooloose/nerdtree'
