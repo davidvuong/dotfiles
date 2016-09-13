@@ -4,7 +4,7 @@ let NERDTreeDirArrows = 1
 let g:NERDTreeWinSize = 40
 
 " Files to ignore in nerdtree.
-let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeIgnore = ['\.pyc$', '\.class$']
 
 " Quit NERDTree if it's the last buffer open.
 autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
@@ -20,6 +20,12 @@ function! s:CloseIfOnlyNerdTreeLeft()
     endif
   endif
 endfunction
+
+" Pressing 't' on a file already open in a tab will jump to the tab.
+" call NerdTreeAddKeyMap({'key': 't', 'callback': 'NERDTreeMyOpenInTab', 'scope': 'FileNode', 'override': 1})
+" function NerdTreeMyOpenInTab(node)
+"   call a:node.open({'reuse': 'all', 'where': 't'})
+" endfunction
 
 " NERDTree cheatsheet.
 " http://www.cheatography.com/stepk/cheat-sheets/vim-nerdtree/
