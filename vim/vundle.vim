@@ -25,6 +25,7 @@ Bundle 'airblade/vim-gitgutter'
 
 " More quality of life improvements (file navigation/search).
 Bundle 'wincent/command-t'
+Bundle 'dkprice/vim-easygrep'
 
 " NERDTree + extensions.
 Bundle 'scrooloose/nerdtree'
