@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
 
-# Makes sure we're on the latest version.
+# Makes sure we're on the latest version
 brew update
 brew upgrade
 
-# Core tools.
+# Core tools
 brew install zsh
 brew install git
 brew install git-extras
 brew install coreutils
 
-# Network tools.
+# Network tools
 brew install nmap
 brew install iftop
 
-# Development & general tools.
+# Development & general tools
 brew install htop
 brew install wget
 brew install pstree
@@ -23,10 +23,10 @@ brew install gcal
 brew install cloc
 brew install ack
 
-# Libraries.
+# Libraries
 brew install libffi
 
-# PostgreSQL + PostGIS.
+# PostgreSQL + PostGIS
 brew install postgis
 brew install gdal
 brew install libgeoip
@@ -34,7 +34,7 @@ brew install libgeoip
 brew install redis
 brew install rabbitmq
 
-# Languages.
+# Languages
 brew install python3
 brew install python
 brew install scala
@@ -42,17 +42,17 @@ brew install scala
 # JavaScript
 brew install flow
 
-# Version managers.
+# Version managers
 brew install nvm
 
-# Other programs.
+# Other programs
 brew install macvim
 brew install graphviz
 brew install watchman
 
-# Brew cask to install GUI applications.
-brew install caskroom/cask/brew-cask
+# Environments
+brew install docker
 
-# Remove outdated versions from the cellar.
+# Remove outdated versions from the cellar
 brew cleanup
 brew linkapps
