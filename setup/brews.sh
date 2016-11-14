@@ -50,8 +50,9 @@ brew install macvim
 brew install graphviz
 brew install watchman
 
-# Environments
+# DevOps
 brew install docker
+brew install packer
 
 # Remove outdated versions from the cellar
 brew cleanup
