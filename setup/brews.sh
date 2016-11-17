@@ -54,6 +54,7 @@ brew install watchman
 # DevOps
 brew install docker
 brew install packer
+brew install terraform
 
 # Remove outdated versions from the cellar
 brew cleanup
