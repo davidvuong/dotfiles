@@ -18,6 +18,7 @@ brew cask install virtualbox
 brew cask install mou
 brew cask install atom
 brew cask install pgadmin3
+brew cask install caffeine
 brew cask install vagrant
 brew cask install docker
 brew cask install docker-toolbox
