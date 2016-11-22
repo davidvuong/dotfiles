@@ -55,6 +55,7 @@ brew install watchman
 brew install docker
 brew install packer
 brew install terraform
+brew install terragrunt
 
 # Remove outdated versions from the cellar
 brew cleanup
