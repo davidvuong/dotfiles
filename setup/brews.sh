@@ -13,6 +13,7 @@ brew install coreutils
 # Network tools
 brew install nmap
 brew install iftop
+brew install bmon
 
 # Development & general tools
 brew install htop
