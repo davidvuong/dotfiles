@@ -14,6 +14,7 @@ brew install coreutils
 brew install nmap
 brew install iftop
 brew install bmon
+brew install httpie
 
 # Development & general tools
 brew install htop
