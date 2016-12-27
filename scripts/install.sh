@@ -44,4 +44,4 @@ ln -s ~/dotfiles/git/gitignore ~/.gitignore
 ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/dircolors ~/.dircolors
 
-echo "Successfully install davidvuong/dotfiles!";
+echo "Successfully installed davidvuong/dotfiles!";
