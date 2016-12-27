@@ -28,8 +28,8 @@ cd ~/.vim/bundle/command-t/
 rake make
 cd -
 
-sh setup/npm.sh
-sh setup/apm.sh
+sh ~/dotfiles/setup/npm.sh
+sh ~/dotfiles/setup/apm.sh
 
 mkdir ~/.atom
 ln -s ~/dotfiles/atom/config.cson ~/.atom/
