@@ -24,6 +24,7 @@ brew install tree
 brew install gcal
 brew install cloc
 brew install ack
+brew install jq
 
 # Libraries
 brew install libffi
