@@ -40,6 +40,7 @@
     ]
     openEmptyEditorOnStart: false
     projectHome: "/Users/davidvuong/workspace"
+    telemetryConsent: "no"
   editor:
     autoIndentOnPaste: false
     fontSize: 13
