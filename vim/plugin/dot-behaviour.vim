@@ -24,8 +24,9 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
-" 2 spaces per tab for ruby files.
+" 2 spaces per tab for certain file types.
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+autocmd Filetype html setlocal ts=2 sts=2 sw=2
 
 " Treat rabl files as Ruby files to enable syntax highlighting.
 au BufRead,BufNewFile *.rabl setf ruby
