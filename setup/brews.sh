@@ -25,6 +25,7 @@ brew install gcal
 brew install cloc
 brew install ack
 brew install jq
+brew install ctop
 
 # Libraries
 brew install libffi
