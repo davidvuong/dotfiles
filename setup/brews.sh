@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eu
+
 # Makes sure we're on the latest version
 brew update
 brew upgrade
@@ -31,10 +33,10 @@ brew install ctop
 brew install libffi
 
 # Languages
-brew cask install java
 brew install ruby
 
 # Scala
+brew cask install java
 brew install sbt
 
 # JavaScript
