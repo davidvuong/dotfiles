@@ -4,8 +4,8 @@ set -eu
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-sh setup/brews.sh
-sh setup/casks.sh
+bash ./setup/brews.sh
+bash ./setup/casks.sh
 
 sudo ./install_zsh.zsh
 
