@@ -14,8 +14,6 @@ bash ./install_python.sh
 bash ./install_vim.sh
 bash ./install_atom.sh
 
-bash ./setup/npm.sh
-
 ln -s ~/dotfiles/git/gitignore ~/.gitignore
 ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/dircolors ~/.dircolors

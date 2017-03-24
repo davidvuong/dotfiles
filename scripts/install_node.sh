@@ -11,3 +11,5 @@ source ~/.zshrc
 
 nvm install v6.9.5
 nvm alias default v6.9.5
+
+bash ./setup/npm.sh
