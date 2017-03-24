@@ -7,5 +7,4 @@ zsh ./scripts/install_zsh.zsh
 
 ln -s ~/.zprezto/zsh_nocorrect ~/zsh_nocorrect
 
-sudo chsh -s /bin/zsh
-source ~/.zshrc
+chsh -s /bin/zsh
