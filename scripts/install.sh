@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eu
+
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 sh setup/brews.sh
