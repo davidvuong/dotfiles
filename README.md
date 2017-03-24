@@ -34,4 +34,4 @@ $ xcode-select --install
     $ bash setup/osx
     ```
 
-1. Remaining manual setup [here](setup/README.md) (optional).
+1. Remaining manual setup [here](setup-manual/README.md) (optional).
