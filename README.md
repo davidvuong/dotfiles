@@ -2,25 +2,24 @@
 
 **Welcome to my dotfiles!**
 
-This repository is a collection of configuration files I personally use to setup my Mac OS X El Capitan machine. It uses Homebrew/Casks to manage most of my applications, ZSH as the shell (zprezto flavour) and VIM as the terminal editor. It also contains a few "me" specific configuration files e.g. `./git/gitconfig` so if you're interested in using my dotfiles, you may want to leave those out!
+This repository is a collection of config files I use to setup my Mac OS X El Capitan machine. It uses Homebrew/Casks to manage most of my applications, ZSH as the shell (zprezto flavour) and VIM as the terminal editor. It also contains a few "me" specific configuration files e.g. `./git/gitconfig` so if you're interested in using my dotfiles, you may want to leave those out!
 
 ## System Requirements
 
-As always, you need to install Xcode and Xcode command line tools to get anything done on a Mac. First, you need to download Xcode from the AppStore. Next, you need to install the command line tools. You do that by executing the following command:
+As always, you need to install Xcode command line tools to get anything done on a Mac. You can install it by executing the following command:
 
 ```bash
 xcode-select --install
 ```
 
-I also use iTerm2 instead of the default Terminal.app, you can download that [here](http://iterm2.com/downloads.html).
+I also use iTerm2 instead of the default `Terminal.app`, you can download that [here](http://iterm2.com/downloads.html).
 
 ## Download & Install
 
-1. Clone the git repository:
+1. Clone the repository:
 
   ```bash
   git clone git@github.com:davidvuong/dotfiles.git ~/dotfiles
-  cd ~/dotfiles
   ```
 
 1. Run the installation script:
