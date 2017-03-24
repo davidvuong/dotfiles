@@ -49,7 +49,6 @@ brew install terraform
 brew install terragrunt
 
 # Other programs
-brew install macvim
 brew install graphviz
 brew install watchman
 
