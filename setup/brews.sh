@@ -30,21 +30,12 @@ brew install ctop
 # Libraries
 brew install libffi
 
-# PostgreSQL + PostGIS
-brew install postgis
-brew install gdal
-brew install libgeoip
-
-brew install redis
-brew install rabbitmq
-
 # Languages
 brew install python3
 brew install python
 brew install ruby
 
 # Scala
-brew install scala
 brew install sbt
 
 # JavaScript
@@ -59,7 +50,7 @@ brew install graphviz
 brew install watchman
 
 # DevOps
-brew install docker
+brew install docker-compose
 brew install packer
 brew install terraform
 brew install terragrunt
