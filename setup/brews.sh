@@ -31,8 +31,7 @@ brew install ctop
 brew install libffi
 
 # Languages
-brew install python3
-brew install python
+brew cask install java
 brew install ruby
 
 # Scala
@@ -41,19 +40,16 @@ brew install sbt
 # JavaScript
 brew install flow
 
-# Version managers
-brew install nvm
-
-# Other programs
-brew install macvim
-brew install graphviz
-brew install watchman
-
 # DevOps
 brew install docker-compose
 brew install packer
 brew install terraform
 brew install terragrunt
+
+# Other programs
+brew install macvim
+brew install graphviz
+brew install watchman
 
 # Remove outdated versions from the cellar
 brew cleanup
