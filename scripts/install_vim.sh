@@ -2,10 +2,10 @@
 
 set -eu
 
-ln -s ./vim ~/.vim
-ln -s ./vim/vimrc ~/.vimrc
-ln -s ./vim/gvimrc ~/.gvimrc
-ln -s ./vim/ideavim ~/.ideavim
+ln -s ~/dotfiles/vim ~/.vim
+ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+ln -s ~/dotfiles/vim/gvimrc ~/.gvimrc
+ln -s ~/dotfiles/vim/ideavim ~/.ideavim
 
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 vim +BundleInstall +qall
