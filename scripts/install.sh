@@ -12,15 +12,9 @@ sudo ./install_zsh.zsh
 bash ./install_node.sh
 bash ./install_python.sh
 bash ./install_vim.sh
+bash ./install_atom.sh
 
 bash ./setup/npm.sh
-bash ./setup/apm.sh
-
-mkdir ~/.atom
-ln -s ~/dotfiles/atom/config.cson ~/.atom/
-ln -s ~/dotfiles/atom/keymap.cson ~/.atom/
-ln -s ~/dotfiles/atom/snippets.cson ~/.atom/
-ln -s ~/dotfiles/atom/styles.less ~/.atom/
 
 ln -s ~/dotfiles/git/gitignore ~/.gitignore
 ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
