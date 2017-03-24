@@ -9,10 +9,8 @@
 1. Change the iTerm2 profile theme:
 
     ```
-    iTerm>Preferences>Profiles>Colors>Load Presets...
-    .. locate ~/dotfiles/iterm2-themes/
-    .. import theme (dark or light)
-    .. load theme (dark or light)
+    iTerm>Preferences>Profiles>Colors>Color Presets...
+    .. Solarized Dark
     ```
 
 1. Install LaTeX:
