@@ -55,4 +55,3 @@ brew install watchman
 
 # Remove outdated versions from the cellar
 brew cleanup
-brew linkapps
