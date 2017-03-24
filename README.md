@@ -9,7 +9,7 @@ This repository is a collection of config files I use to setup my Mac OS X El Ca
 As always, you need to install Xcode command line tools to get anything done on a Mac. You can install it by executing the following command:
 
 ```bash
-xcode-select --install
+$ xcode-select --install
 ```
 
 ## Download & Install
@@ -17,40 +17,19 @@ xcode-select --install
 1. Clone the repository:
 
   ```bash
-  git clone git@github.com:davidvuong/dotfiles.git ~/dotfiles
+  $ git clone git@github.com:davidvuong/dotfiles.git ~/dotfiles
   ```
 
 1. Run the installation script:
 
   ```bash
-  sh ./scripts/install.sh
-  ```
-
-1. Add symlinks to directories and files connected to my Dropbox (optional):
-
-  ```
-  ln -s ~/Dropbox/workspace ~/workspace
-  ln -s ~/Dropbox/tvm-records ~/.tvm-records
-  ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
+  $ bash ./scripts/install.sh
   ```
 
 1. Configure Mac OS settings (optional):
 
   ```bash
-  sh setup/osx
+  $ bash setup/osx
   ```
 
-## Manual iTerm2 Theme Setup
-
-Change the iTerm2 profile theme:
-
-  ```
-  iTerm>Preferences>Profiles>Colors>Load Presets...
-  .. locate ~/dotfiles/iterm2-themes/
-  .. import theme (dark or light)
-  .. load theme (dark or light)
-  ```
-
-## LaTeX
-
-* LaTeX, [http://www.tug.org/mactex/](http://www.tug.org/mactex/)
+1. Remaining manual setup [here](setup/README.md) (optional).
