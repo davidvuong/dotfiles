@@ -9,7 +9,7 @@ bash ./setup/brews.sh
 bash ./setup/casks.sh
 
 echo "Installing ZSH and zprezto!"
-sudo ./scripts/install_zsh.zsh
+bash ./scripts/install_zsh.sh
 
 echo "Installing NodeJS, Python, Vim, Atom"
 bash ./scripts/install_node.sh
