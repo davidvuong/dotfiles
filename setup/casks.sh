@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -eu
+
 brew tap caskroom/versions
 
 brew cask install skype
@@ -18,6 +20,7 @@ brew cask install cyberduck
 brew cask install spotify
 brew cask install caffeine
 
+brew cask install iterm2
 brew cask install pgadmin3
 
 brew cask install mou
