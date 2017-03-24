@@ -12,10 +12,10 @@ echo "Installing ZSH and zprezto!"
 bash ./scripts/install_zsh.sh
 
 echo "Installing NodeJS, Python, Vim, Atom"
-bash ./scripts/install_node.sh
-bash ./scripts/install_python.sh
-bash ./scripts/install_vim.sh
-bash ./scripts/install_atom.sh
+zsh ./scripts/install_node.sh
+zsh ./scripts/install_python.sh
+zsh ./scripts/install_vim.sh
+zsh ./scripts/install_atom.sh
 
 echo "Adding necessary symbolic links"
 ln -s ./git/gitignore ~/.gitignore
