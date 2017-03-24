@@ -16,12 +16,16 @@ brew cask install android-file-transfer
 brew cask install the-unarchiver
 brew cask install cyberduck
 brew cask install spotify
-brew cask install virtualbox
+brew cask install caffeine
+
+brew cask install pgadmin3
+
 brew cask install mou
 brew cask install atom
-brew cask install pgadmin3
-brew cask install caffeine
+
+brew cask install virtualbox
 brew cask install vagrant
+
 brew cask install docker
 brew cask install docker-toolbox
 
