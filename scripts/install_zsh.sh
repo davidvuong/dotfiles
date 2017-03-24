@@ -2,14 +2,8 @@
 
 set -eu
 
-git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto"
-
-zsh -c "
-    setopt EXTENDED_GLOB
-    for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
-      ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
-    done
-"
+git clone --recursive https://github.com/davidvuong/prezto "${ZDOTDIR:-$HOME}/.zprezto2"
+zsh ./scripts/install_zsh.zsh
 
 ln -s ~/.zprezto/zsh_nocorrect ~/zsh_nocorrect
 
