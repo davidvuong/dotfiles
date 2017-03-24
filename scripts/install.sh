@@ -4,18 +4,22 @@ set -eu
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+echo "Installing brews and casks"
 bash ./setup/brews.sh
 bash ./setup/casks.sh
 
-sudo ./install_zsh.zsh
+echo "Installing ZSH and zprezto!"
+sudo ./scripts/install_zsh.zsh
 
-bash ./install_node.sh
-bash ./install_python.sh
-bash ./install_vim.sh
-bash ./install_atom.sh
+echo "Installing NodeJS, Python, Vim, Atom"
+bash ./scripts/install_node.sh
+bash ./scripts/install_python.sh
+bash ./scripts/install_vim.sh
+bash ./scripts/install_atom.sh
 
-ln -s ~/dotfiles/git/gitignore ~/.gitignore
-ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
-ln -s ~/dotfiles/dircolors ~/.dircolors
+echo "Adding necessary symbolic links"
+ln -s ./git/gitignore ~/.gitignore
+ln -s ./git/gitconfig ~/.gitconfig
+ln -s ./dircolors ~/.dircolors
 
 echo "Successfully installed davidvuong/dotfiles!";

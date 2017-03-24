@@ -6,4 +6,4 @@ brew install python3
 brew install python
 
 sudo pip install --upgrade pip
-sudo pip install -r ~/dotfiles/setup/requirements.txt
+sudo pip install -r ./setup/requirements.txt
