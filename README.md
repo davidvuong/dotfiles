@@ -12,8 +12,6 @@ As always, you need to install Xcode command line tools to get anything done on 
 xcode-select --install
 ```
 
-I also use iTerm2 instead of the default `Terminal.app`, you can download that [here](http://iterm2.com/downloads.html).
-
 ## Download & Install
 
 1. Clone the repository:
