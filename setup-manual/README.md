@@ -1,9 +1,15 @@
 1. Download `tvm` and add symlinks:
 
     ```
-    ln -s ~/Dropbox/workspace ~/workspace
+
     ln -s ~/Dropbox/tvm-records ~/.tvm-records
     ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
+    ```
+
+1. Symlink the `~/workspace` directory inside Dropbox:
+
+    ```
+    ln -s ~/Dropbox/workspace ~/workspace
     ```
 
 1. Change the iTerm2 profile theme:
