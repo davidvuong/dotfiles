@@ -26,8 +26,8 @@
 1. Install Jetbrains IDEs:
 
     * Webstorm
-    * PyCharm
-    * IDEA CE
+    * PyCharm CE
+    * IntelliJ IDEA CE
 
 1. Install LaTeX:
 
