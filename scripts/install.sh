@@ -18,8 +18,8 @@ zsh ./scripts/install_vim.sh
 zsh ./scripts/install_atom.sh
 
 echo "Adding necessary symbolic links"
-ln -s ./git/gitignore ~/.gitignore
-ln -s ./git/gitconfig ~/.gitconfig
-ln -s ./dircolors ~/.dircolors
+ln -s ~/dotfiles/git/gitignore ~/.gitignore
+ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/dotfiles/dircolors ~/.dircolors
 
 echo "Successfully installed davidvuong/dotfiles!";
