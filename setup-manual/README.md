@@ -1,4 +1,4 @@
-1. Add symlinks to directories and files connected to my Dropbox:
+1. Download `tvm` and add symlinks:
 
     ```
     ln -s ~/Dropbox/workspace ~/workspace
