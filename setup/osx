@@ -3,7 +3,7 @@
 
 # Show percentage; Hide remaining battery time
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
-defaults write com.apple.menuextra.battery ShowTime -string "NO"
+defaults write com.apple.menuextra.battery ShowTime -string "YES"
 
 defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
 
