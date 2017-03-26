@@ -22,6 +22,7 @@ brew cask install caffeine
 
 brew cask install mou
 brew cask install iterm2
+brew cask install psequel
 
 brew cask install virtualbox
 brew cask install vagrant
