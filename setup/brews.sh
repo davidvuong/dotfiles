@@ -48,6 +48,9 @@ brew install packer
 brew install terraform
 brew install terragrunt
 
+# Database
+brew install postgresql
+
 # Other programs
 brew install graphviz
 brew install watchman
