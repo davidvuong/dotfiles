@@ -27,6 +27,7 @@ brew install gcal
 brew install cloc
 brew install ack
 brew install jq
+brew install vim
 brew install ctop
 
 # Libraries
