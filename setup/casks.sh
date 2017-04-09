@@ -30,4 +30,6 @@ brew cask install vagrant
 brew cask install docker
 brew cask install docker-toolbox
 
+brew cask install sublime-text
+
 brew cleanup
