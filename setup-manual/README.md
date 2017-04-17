@@ -12,6 +12,12 @@
     ln -s ~/Dropbox/workspace ~/workspace
     ```
 
+1. Symlink the `atom` config:
+
+    ```
+    ln -s ~/dotfiles/atom ~/.atom
+    ```
+
 1. Change the iTerm2 profile theme:
 
     ```
