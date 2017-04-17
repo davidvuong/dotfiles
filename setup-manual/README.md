@@ -18,6 +18,12 @@
     ln -s ~/dotfiles/atom ~/.atom
     ```
 
+1. Install Atom 3rd party packages:
+
+    ```
+    bash ~/dotfiles/setup/apm.sh
+    ```
+
 1. Change the iTerm2 profile theme:
 
     ```
