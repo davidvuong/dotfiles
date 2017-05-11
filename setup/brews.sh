@@ -11,6 +11,7 @@ brew install zsh
 brew install git
 brew install git-extras
 brew install coreutils
+brew install fswatch
 
 # Network tools
 brew install nmap
