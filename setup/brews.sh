@@ -43,6 +43,7 @@ brew install sbt
 
 # JavaScript
 brew install flow
+brew install yarn
 
 # DevOps
 brew install docker-compose
