@@ -30,6 +30,7 @@ $RECYCLE.BIN/
 TAGS
 tags
 
+# IntelliJ
 .idea/
 
 # Vim:
@@ -37,6 +38,9 @@ tags
 Session.vim
 .netrwhist
 *~
+
+# VSCode:
+.vscode/
 
 # diffmerge .orig files:
 *.orig
