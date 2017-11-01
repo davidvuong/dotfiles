@@ -58,5 +58,9 @@ brew install postgresql
 brew install graphviz
 brew install watchman
 
+# Fonts
+brew tap caskroom/fonts
+brew cask install font-fira-code
+
 # Remove outdated versions from the cellar
 brew cleanup
