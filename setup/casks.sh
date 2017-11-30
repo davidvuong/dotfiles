@@ -32,5 +32,6 @@ brew cask install docker
 brew cask install docker-toolbox
 
 brew cask install sublime-text
+brew cask install visual-studio-code
 
 brew cleanup
