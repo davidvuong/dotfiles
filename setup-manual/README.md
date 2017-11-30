@@ -26,6 +26,7 @@
     vim
     vscode-flow-ide
     one-dark-pro
+    react-native-tools
     ```
 
 1. Symlink the `atom` config:
