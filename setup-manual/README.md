@@ -11,6 +11,22 @@
     ```
     ln -s ~/Dropbox/workspace ~/workspace
     ```
+1. Symlink `vscode` config:
+
+    ```
+    ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+    ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+    ln -s ~/dotfiles/vscode/snippets/ ~/Library/Application\ Support/Code/User/snippets
+    ```
+
+1. Install vscode plugins & themes:
+
+    ```
+    eslint
+    vim
+    vscode-flow-ide
+    one-dark-pro
+    ```
 
 1. Symlink the `atom` config:
 
