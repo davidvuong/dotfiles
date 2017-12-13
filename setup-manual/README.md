@@ -1,19 +1,25 @@
 1. Download `tvm` and add symlinks:
 
-    ```
-
+    ```bash
     ln -s ~/Dropbox/tvm-records ~/.tvm-records
     ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
     ```
 
+    (optional) Windows 10 (WSL):
+
+    ```bash
+    ln -s /mnt/c/Users/david/Dropbox/tvm-config.json ~/.tvm-config.json
+    ln -s /mnt/c/Users/david/Dropbox/tvm-records ~/.tvm-records
+    ```
+
 1. Symlink the `~/workspace` directory inside Dropbox:
 
-    ```
+    ```bash
     ln -s ~/Dropbox/workspace ~/workspace
     ```
 1. Symlink `vscode` config:
 
-    ```
+    ```bash
     ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
     ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
     ln -s ~/dotfiles/vscode/snippets/ ~/Library/Application\ Support/Code/User/snippets
@@ -31,13 +37,13 @@
 
 1. Symlink the `atom` config:
 
-    ```
+    ```bash
     ln -s ~/dotfiles/atom ~/.atom
     ```
 
 1. Install Atom 3rd party packages:
 
-    ```
+    ```bash
     bash ~/dotfiles/setup/apm.sh
     ```
 
