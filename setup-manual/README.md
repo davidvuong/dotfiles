@@ -8,7 +8,7 @@
     (optional) Windows 10 (WSL):
 
     ```bash
-    ln -s /mnt/c/Users/david/Dropbox/tvm-config.json ~/.tvm-config.json
+    ln -s /mnt/c/Users/david/Dropbox/tvm-config.json ~/.tvm-config.json
     ln -s /mnt/c/Users/david/Dropbox/tvm-records ~/.tvm-records
     ```
 
@@ -17,6 +17,7 @@
     ```bash
     ln -s ~/Dropbox/workspace ~/workspace
     ```
+
 1. Symlink `vscode` config:
 
     ```bash
