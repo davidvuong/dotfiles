@@ -20,5 +20,6 @@
   "files.insertFinalNewline": true,
   "files.associations": {
     "*.js": "javascript"
-  }
+  },
+  "extensions.ignoreRecommendations": true
 }
