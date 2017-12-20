@@ -5,5 +5,7 @@ set -eu
 brew install python3
 brew install python
 
-sudo pip install --upgrade pip
-sudo pip install -r ./setup/requirements.txt
+sudo pip2 install --ignore-installed virtualenv
+sudo pip2 install --ignore-installed virtualenvwrapper
+sudo pip2 install --ignore-installed flake8
+sudo pip2 install --ignore-installed git-up
