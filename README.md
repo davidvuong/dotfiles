@@ -11,7 +11,7 @@ It also contains a few "me" specific configuration files e.g. `./git/gitconfig` 
 As always, you need to install Xcode command line tools to get anything done on a Mac. You can install it by executing the following command:
 
 ```bash
-$ xcode-select --install
+xcode-select --install
 ```
 
 ## Download & Install
@@ -19,19 +19,25 @@ $ xcode-select --install
 1. Clone the repository:
 
     ```bash
-    $ git clone git@github.com:davidvuong/dotfiles.git ~/dotfiles
+    git clone https://github.com/davidvuong/dotfiles.git ~/dotfiles
     ```
 
 1. Run the installation script:
 
     ```bash
-    $ bash ./scripts/install.sh
+    bash ./scripts/install.sh
     ```
 
 1. Configure Mac OS settings (optional):
 
     ```bash
-    $ bash setup/osx
+    bash setup/osx
     ```
 
 1. Remaining manual setup [here](setup-manual/README.md) (optional).
+
+1. Replace the HTTPS remote with `git` when everything is done:
+
+    ```bash
+    git remote set-url origin git@github.com:davidvuong/dotfiles.git
+    ```
