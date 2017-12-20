@@ -12,6 +12,7 @@ brew install git
 brew install git-extras
 brew install coreutils
 brew install fswatch
+brew install watchman
 
 # Network tools
 brew install nmap
@@ -31,8 +32,9 @@ brew install jq
 brew install vim
 brew install ctop
 
-# Libraries
+# Core
 brew install libffi
+brew install ffmpeg
 
 # Languages
 brew install ruby
@@ -41,22 +43,9 @@ brew install ruby
 brew cask install java
 brew install sbt
 
-# JavaScript
-brew install flow
-brew install yarn
-
 # DevOps
 brew install docker-compose
-brew install packer
 brew install terraform
-brew install terragrunt
-
-# Database
-brew install postgresql
-
-# Other programs
-brew install graphviz
-brew install watchman
 
 # Fonts
 brew tap caskroom/fonts
