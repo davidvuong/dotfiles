@@ -10,7 +10,7 @@
     ```bash
     ln -s /mnt/c/Users/david/Dropbox/tvm-config.json ~/.tvm-config.json
     ln -s /mnt/c/Users/david/Dropbox/tvm-records ~/.tvm-records
-    ```
+    ```
 
 1. Symlink the `~/workspace` directory inside Dropbox:
 
@@ -34,18 +34,6 @@
     vscode-flow-ide
     one-dark-pro
     react-native-tools
-    ```
-
-1. Symlink the `atom` config:
-
-    ```bash
-    ln -s ~/dotfiles/atom ~/.atom
-    ```
-
-1. Install Atom 3rd party packages:
-
-    ```bash
-    bash ~/dotfiles/setup/apm.sh
     ```
 
 1. Change the iTerm2 profile theme:
