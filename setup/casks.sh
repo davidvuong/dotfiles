@@ -21,7 +21,6 @@ brew cask install cyberduck
 brew cask install spotify
 brew cask install caffeine
 
-brew cask install mou
 brew cask install iterm2
 brew cask install psequel
 
@@ -33,5 +32,6 @@ brew cask install docker-toolbox
 
 brew cask install sublime-text
 brew cask install visual-studio-code
+brew cask install android-studio
 
 brew cleanup
