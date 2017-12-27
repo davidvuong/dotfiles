@@ -38,6 +38,9 @@ Bundle 'sjl/gundo.vim'
 " Coffee-script syntax highlighting.
 Bundle 'kchmck/vim-coffee-script'
 
+" JSON syntax highlighting.
+Bundle 'elzr/vim-json'
+
 " Scala syntax highlighting.
 Bundle 'derekwyatt/vim-scala'
 
