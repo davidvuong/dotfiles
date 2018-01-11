@@ -38,9 +38,10 @@ brew install ffmpeg
 
 # Languages
 brew install ruby
+brew tap caskroom/versions
+brew cask install java8
 
 # Scala
-brew cask install java
 brew install sbt
 
 # DevOps
