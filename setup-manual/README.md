@@ -2,13 +2,13 @@
 
     ```bash
     ln -s ~/Dropbox/tvm-records ~/.tvm-records
-    ln -s ~/Dropbox/tvm-config.json ~/.tvm-config.json
+    ln -s ~/Dropbox/tvm-records/tvm-config.json ~/.tvm-config.json
     ```
 
     (optional) Windows 10 (WSL):
 
     ```bash
-    ln -s /mnt/c/Users/david/Dropbox/tvm-config.json ~/.tvm-config.json
+    ln -s /mnt/c/Users/david/Dropbox/tvm-records/tvm-config.json ~/.tvm-config.json
     ln -s /mnt/c/Users/david/Dropbox/tvm-records ~/.tvm-records
     ```
 
