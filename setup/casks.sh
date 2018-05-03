@@ -20,6 +20,7 @@ brew cask install the-unarchiver
 brew cask install cyberduck
 brew cask install spotify
 brew cask install caffeine
+brew cask install calibre
 
 brew cask install iterm2
 brew cask install psequel
