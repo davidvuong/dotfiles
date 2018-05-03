@@ -14,6 +14,7 @@ bash ./scripts/install_zsh.sh
 echo "Installing NodeJS, Python, Vim, Atom"
 zsh ./scripts/install_node.sh
 zsh ./scripts/install_python.sh
+zsh ./scripts/install_java.sh
 zsh ./scripts/install_vim.sh
 
 echo "Adding necessary symbolic links"
