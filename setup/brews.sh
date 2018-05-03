@@ -36,10 +36,14 @@ brew install ctop
 brew install libffi
 brew install ffmpeg
 
-# Languages
+# Ruby
 brew install ruby
+
+# Java
+brew install jenv
 brew tap caskroom/versions
 brew cask install java8
+brew cask install java
 
 # Scala
 brew install sbt
