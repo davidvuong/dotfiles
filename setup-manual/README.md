@@ -12,12 +12,6 @@
     ln -s /mnt/c/Users/david/Dropbox/tvm-records ~/.tvm-records
     ```
 
-1. Symlink the `~/workspace` directory inside Dropbox:
-
-    ```bash
-    ln -s ~/Dropbox/workspace ~/workspace
-    ```
-
 1. Symlink `vscode` config:
 
     ```bash
