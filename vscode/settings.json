@@ -5,7 +5,7 @@
   "editor.minimap.enabled": false,
   "editor.fontSize": 12,
   "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,  
+  "editor.fontLigatures": true,
   "editor.detectIndentation": false,
   "window.zoomLevel": 0,
   "workbench.editor.enablePreview": false,
