@@ -10,5 +10,5 @@ cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
 
 source ~/.zshrc
 
-nvm install v6.12.2
-nvm alias default v6.12.2
+nvm install v8.11.3
+nvm alias default v8.11.3
