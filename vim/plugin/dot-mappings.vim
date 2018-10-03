@@ -44,6 +44,11 @@ noremap <F1> <nop>
 nnoremap j gj
 nnoremap k gk
 
+nnoremap <S-Up> :m-2<CR>
+nnoremap <S-Down> :m+<CR>
+inoremap <S-Up> <Esc>:m-2<CR>
+inoremap <S-Down> <Esc>:m+<CR>
+
 " NOTE: Enable this when I'm more comfortable with hjkl.
 " Resize windows with arrow keys
 " nnoremap <D-Up> <C-w>+
