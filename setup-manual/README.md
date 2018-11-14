@@ -20,15 +20,7 @@
     ln -s ~/dotfiles/vscode/snippets/ ~/Library/Application\ Support/Code/User/snippets
     ```
 
-1. Install vscode plugins & themes:
-
-    ```
-    eslint
-    vim
-    vscode-flow-ide
-    one-dark-pro
-    react-native-tools
-    ```
+1. Install vscode plugins & themes (see `./dotfiles/vscode/README.md`)
 
 1. Change the iTerm2 profile theme:
 
