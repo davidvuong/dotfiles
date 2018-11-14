@@ -5,11 +5,19 @@
     "when": "!editorIsOpen"
   },
   {
-    "key": "cmd+left",
+    "key": "cmd+right",
     "command": "workbench.action.nextEditor"
   },
   {
-    "key": "cmd+right",
+    "key": "cmd+left",
     "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "cmd+r",
+    "command": "editor.action.startFindReplaceAction"
+  },
+  {
+    "key": "alt+cmd+f",
+    "command": "-editor.action.startFindReplaceAction"
   }
 ]

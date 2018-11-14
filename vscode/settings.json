@@ -9,13 +9,13 @@
   "window.zoomLevel": 0,
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "One Dark Pro",
-  "search.exclude":{
+  "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.git": true,
     "**/build": true
   },
-  "files.autoSave": "onWindowChange",
+  "files.autoSave": "onFocusChange",
   "files.insertFinalNewline": true,
   "files.associations": {
     "*.js": "javascript"
@@ -32,6 +32,11 @@
   "breadcrumbs.enabled": true,
   "workbench.startupEditor": "newUntitledFile",
   "search.showLineNumbers": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.run": "onSave",
   "tslint.alwaysShowStatus": true,
-  "tslint.validateWithDefaultConfig": true
+  "tslint.validateWithDefaultConfig": true,
+  "python.disablePromptForFeatures": [
+    "pylint"
+  ],
 }
