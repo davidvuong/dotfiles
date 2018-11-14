@@ -1,3 +1,15 @@
 [
-  { "key": "cmd+w", "command": "-workbench.action.closeWindow", "when": "!editorIsOpen" }
+  {
+    "key": "cmd+w",
+    "command": "-workbench.action.closeWindow",
+    "when": "!editorIsOpen"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.previousEditor"
+  }
 ]

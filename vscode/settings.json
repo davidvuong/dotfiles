@@ -6,7 +6,6 @@
   "editor.fontSize": 12,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.detectIndentation": false,
   "window.zoomLevel": 0,
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "One Dark Pro",
@@ -16,10 +15,23 @@
     "**/.git": true,
     "**/build": true
   },
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "onWindowChange",
   "files.insertFinalNewline": true,
   "files.associations": {
     "*.js": "javascript"
   },
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "editor.wordWrapColumn": 120,
+  "editor.hover.delay": 200,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.tree.horizontalScrolling": true,
+  "breadcrumbs.enabled": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "search.showLineNumbers": true,
+  "tslint.alwaysShowStatus": true,
+  "tslint.validateWithDefaultConfig": true
 }
