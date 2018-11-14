@@ -39,4 +39,6 @@
   "python.disablePromptForFeatures": [
     "pylint"
   ],
+  "eslint.run": "onSave",
+  "window.nativeTabs": true,
 }
