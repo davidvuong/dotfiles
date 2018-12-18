@@ -36,9 +36,9 @@
   "tslint.run": "onSave",
   "tslint.alwaysShowStatus": true,
   "tslint.validateWithDefaultConfig": true,
-  "python.disablePromptForFeatures": [
-    "pylint"
-  ],
+  "python.disablePromptForFeatures": ["pylint"],
+  "explorer.autoReveal": false,
   "eslint.run": "onSave",
   "window.nativeTabs": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
