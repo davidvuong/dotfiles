@@ -8,7 +8,6 @@ brew cask install google-chrome
 brew cask install opera
 brew cask install firefox
 
-brew cask install skype
 brew cask install slack
 brew cask install vlc
 brew cask install qbittorrent
