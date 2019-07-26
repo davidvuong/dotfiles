@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-sudo pip install --ignore-installed virtualenv
-sudo pip install --ignore-installed virtualenvwrapper
-sudo pip install --ignore-installed flake8
+sudo pip3 install --ignore-installed virtualenv
+sudo pip3 install --ignore-installed virtualenvwrapper
+sudo pip3 install --ignore-installed flake8
