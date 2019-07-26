@@ -50,7 +50,6 @@ brew install sbt
 
 # DevOps
 brew install docker-compose
-brew install terraform
 
 # Fonts
 brew tap caskroom/fonts
