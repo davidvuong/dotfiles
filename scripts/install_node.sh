@@ -3,7 +3,6 @@
 set -eu
 
 brew install nvm
-brew install yarn --without-node
 
 mkdir -p ~/.nvm
 cp $(brew --prefix nvm)/nvm-exec ~/.nvm/
