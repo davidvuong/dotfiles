@@ -2,7 +2,7 @@
 
 set -eu
 
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 
 brew cask install google-chrome
 brew cask install firefox
