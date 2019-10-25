@@ -1,4 +1,4 @@
-# Dotfiles (macOS High Sierra)
+# Dotfiles (macOS Catalina)
 
 **Welcome to my dotfiles!**
 
