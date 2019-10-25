@@ -52,7 +52,7 @@ brew install sbt
 brew install docker-compose
 
 # Fonts
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 brew cask install font-fira-code
 
 # Remove outdated versions from the cellar
