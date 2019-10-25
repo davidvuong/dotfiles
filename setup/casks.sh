@@ -15,14 +15,11 @@ brew cask install appcleaner
 brew cask install alfred
 brew cask install dropbox
 brew cask install android-file-transfer
-brew cask install the-unarchiver
-brew cask install cyberduck
 brew cask install spotify
 brew cask install caffeine
 brew cask install calibre
 
 brew cask install iterm2
-brew cask install psequel
 
 brew cask install virtualbox
 brew cask install vagrant
@@ -30,7 +27,6 @@ brew cask install vagrant
 brew cask install docker
 brew cask install docker-toolbox
 
-brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install android-studio
 brew cask install spectacle
