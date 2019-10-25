@@ -41,7 +41,7 @@ brew install ruby
 
 # Java
 brew install jenv
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 brew cask install java11
 brew cask install java
 
