@@ -16,6 +16,5 @@ brew cask install visual-studio-code
 brew cask install spectacle
 
 brew cask install docker
-brew cask install docker-toolbox
 
 brew cleanup
