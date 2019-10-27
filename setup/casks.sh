@@ -23,9 +23,7 @@ brew cask install iterm2
 
 brew cask install virtualbox
 brew cask install vagrant
-
 brew cask install docker
-brew cask install docker-toolbox
 
 brew cask install visual-studio-code
 brew cask install android-studio
