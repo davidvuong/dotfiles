@@ -48,6 +48,9 @@ brew cask install java
 # Scala
 brew install sbt
 
+# JS
+brew install yarn
+
 # DevOps
 brew install docker-compose
 
