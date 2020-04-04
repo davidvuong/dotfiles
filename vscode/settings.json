@@ -1,58 +1,54 @@
 {
-    "terraform.path": "terraform12",
-    "terraform.indexing": {
-        "enabled": false,
-        "liveIndexing": false,
-        "delay": 500,
-        "exclude": [
-            ".terraform/**/*",
-            "**/.terraform/**/*"
-        ]
-    },
-    "terraform.languageServer": {
-        "enabled": false,
-        "args": []
-    },
-    "javascript.validate.enable": false,
-    "editor.tabSize": 2,
-    "editor.renderWhitespace": "all",
-    "editor.minimap.enabled": false,
-    "editor.fontSize": 12,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "editor.wordWrapColumn": 120,
-    "editor.hover.delay": 200,
-    "editor.lineNumbers": "relative",
-    "editor.formatOnSave": true,
-    "window.zoomLevel": 0,
-
-    "search.exclude": {
-      "**/node_modules": true,
-      "**/bower_components": true,
-      "**/.git": true,
-      "**/build": true
-    },
-    "files.autoSave": "onFocusChange",
-    "files.insertFinalNewline": true,
-    "files.associations": {
-      "*.js": "javascript"
-    },
-    "extensions.ignoreRecommendations": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "workbench.list.horizontalScrolling": true,
-    "breadcrumbs.enabled": true,
-    "workbench.editor.enablePreview": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "workbench.startupEditor": "newUntitledFile",
-    "search.showLineNumbers": true,
-    "explorer.autoReveal": false,
-    "eslint.run": "onSave",
-    "window.nativeTabs": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always"
-  }
+  "terraform.path": "terraform12",
+  "terraform.indexing": {
+    "enabled": false,
+    "liveIndexing": false,
+    "delay": 500,
+    "exclude": [".terraform/**/*", "**/.terraform/**/*"]
+  },
+  "terraform.languageServer": {
+    "enabled": false,
+    "args": []
+  },
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 12,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.wordWrapColumn": 120,
+  "editor.hover.delay": 200,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 0,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/build": true
+  },
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "extensions.ignoreRecommendations": true,
+  "workbench.list.horizontalScrolling": true,
+  "breadcrumbs.enabled": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.startupEditor": "newUntitledFile",
+  "search.showLineNumbers": true,
+  "explorer.autoReveal": false,
+  "eslint.run": "onSave",
+  "window.nativeTabs": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false
+}
