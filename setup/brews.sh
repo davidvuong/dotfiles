@@ -39,15 +39,6 @@ brew install ffmpeg
 # Ruby
 brew install ruby
 
-# Java
-brew install jenv
-brew tap homebrew/cask-versions
-brew cask install java11
-brew cask install java
-
-# Scala
-brew install sbt
-
 # JS
 brew install yarn
 
