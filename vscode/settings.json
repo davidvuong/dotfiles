@@ -7,8 +7,7 @@
     "exclude": [".terraform/**/*", "**/.terraform/**/*"]
   },
   "terraform.languageServer": {
-    "enabled": false,
-    "args": []
+    "external": true
   },
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
@@ -50,5 +49,10 @@
   "window.nativeTabs": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.validate.enable": false
+  "javascript.validate.enable": false,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "python.languageServer": "Pylance",
+  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/"
 }
