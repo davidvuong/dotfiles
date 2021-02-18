@@ -30,6 +30,7 @@ brew install cloc
 brew install ack
 brew install jq
 brew install vim
+brew install --HEAD neovim
 brew install ctop
 
 # Core
