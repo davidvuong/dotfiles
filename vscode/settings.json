@@ -23,14 +23,13 @@
   "editor.hover.delay": 200,
   "editor.lineNumbers": "relative",
   "editor.formatOnSave": true,
-  "window.zoomLevel": 0,
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.git": true,
     "**/build": true
   },
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "off",
   "files.insertFinalNewline": true,
   "files.associations": {
     "*.js": "javascript"
@@ -54,5 +53,6 @@
     "editor.tabSize": 4
   },
   "python.languageServer": "Pylance",
-  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/"
+  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/",
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim"
 }
