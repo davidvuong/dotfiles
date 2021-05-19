@@ -4,22 +4,23 @@ set -eu
 
 brew tap homebrew/cask-versions
 
-brew cask install google-chrome
-brew cask install firefox
+brew install --cask google-chrome
+brew install --cask firefox
 
-brew cask install slack
-brew cask install vlc
-brew cask install qbittorrent
-brew cask install appcleaner
-brew cask install alfred
-brew cask install dropbox
-brew cask install spotify
-brew cask install caffeine
+brew install --cask slack
+brew install --cask vlc
+brew install --cask qbittorrent
+brew install --cask appcleaner
+brew install --cask alfred
+brew install --cask dropbox
+brew install --cask spotify
+brew install --cask caffeine
 
-brew cask install iterm2
-brew cask install docker
+brew install --cask iterm2
+brew install --cask docker
+brew install --cask lens
 
-brew cask install visual-studio-code
-brew cask install spectacle
+brew install --cask visual-studio-code
+brew install --cask spectacle
 
 brew cleanup
