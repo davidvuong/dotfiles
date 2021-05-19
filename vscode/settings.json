@@ -54,5 +54,11 @@
   },
   "python.languageServer": "Pylance",
   "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/",
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim"
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ]
 }
