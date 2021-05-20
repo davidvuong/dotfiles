@@ -46,6 +46,7 @@ brew install yarn
 # DevOps
 brew install docker-compose
 brew install helm
+brew install minikube
 
 # Fonts
 brew tap homebrew/cask-fonts
