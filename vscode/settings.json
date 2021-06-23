@@ -9,6 +9,7 @@
   "terraform.languageServer": {
     "external": true
   },
+  "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
   "editor.minimap.enabled": false,
@@ -21,7 +22,7 @@
   },
   "editor.wordWrapColumn": 120,
   "editor.hover.delay": 200,
-  "editor.lineNumbers": "relative",
+  "editor.lineNumbers": "on",
   "editor.formatOnSave": true,
   "search.exclude": {
     "**/node_modules": true,
@@ -54,11 +55,10 @@
   },
   "python.languageServer": "Pylance",
   "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/",
-  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ]
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "editor.cursorStyle": "line",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off"
 }
