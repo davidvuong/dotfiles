@@ -15,7 +15,6 @@ brew install --cask alfred
 brew install --cask dropbox
 brew install --cask spotify
 brew install --cask caffeine
-brew install --cask lulu
 
 brew install --cask iterm2
 brew install --cask docker

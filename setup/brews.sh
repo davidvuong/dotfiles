@@ -30,23 +30,15 @@ brew install cloc
 brew install ack
 brew install jq
 brew install vim
-brew install --HEAD neovim
 brew install ctop
 
 # Core
 brew install libffi
 brew install ffmpeg
 
-# Ruby
 brew install ruby
-
-# JS
 brew install yarn
-
-# DevOps
-brew install docker-compose
 brew install helm
-brew install minikube
 
 # Fonts
 brew tap homebrew/cask-fonts
