@@ -16,7 +16,6 @@
   "editor.fontSize": 12,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -29,6 +28,9 @@
   "editor.formatOnSave": true,
   "[python]": {
     "editor.tabSize": 4
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
     "editor.formatOnSave": false
