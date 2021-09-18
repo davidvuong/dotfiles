@@ -11,9 +11,12 @@ bash ./setup/casks.sh
 echo "Installing ZSH and zprezto!"
 bash ./scripts/install_zsh.sh
 
-echo "Installing NodeJS, Python, Vim, Atom"
+echo "Installing NodeJS, Python, & Rust"
 zsh ./scripts/install_node.sh
 zsh ./scripts/install_python.sh
+zsh ./scripts/install_rust.sh
+
+echo "Install Vim"
 zsh ./scripts/install_vim.sh
 
 echo "Adding necessary symbolic links"
