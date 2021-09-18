@@ -16,7 +16,6 @@
 [core]
     # Global ignore list.
     excludesfile = ~/.gitignore
-
     editor = vim
 
 [push]
@@ -24,3 +23,6 @@
 
 [merge]
     tool = diffmerge
+
+[init]
+    defaultBranch = master

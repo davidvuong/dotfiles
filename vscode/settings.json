@@ -20,16 +20,26 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.cursorStyle": "line",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off",
   "editor.wordWrapColumn": 120,
   "editor.hover.delay": 200,
   "editor.lineNumbers": "on",
   "editor.formatOnSave": true,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.git": true,
     "**/build": true
   },
+  "search.showLineNumbers": true,
   "files.autoSave": "off",
   "files.insertFinalNewline": true,
   "files.associations": {
@@ -38,27 +48,20 @@
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "extensions.ignoreRecommendations": true,
-  "workbench.list.horizontalScrolling": true,
   "breadcrumbs.enabled": true,
+  "workbench.list.horizontalScrolling": true,
   "workbench.editor.enablePreview": false,
   "workbench.colorTheme": "One Dark Pro",
   "workbench.startupEditor": "newUntitledFile",
-  "search.showLineNumbers": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "explorer.autoReveal": false,
   "eslint.run": "onSave",
   "window.nativeTabs": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
-  "[python]": {
-    "editor.tabSize": 4
-  },
   "python.languageServer": "Pylance",
-  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/",
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
-  },
-  "editor.cursorStyle": "line",
-  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.wordWrap": "off"
+  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/"
 }
