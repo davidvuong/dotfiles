@@ -18,6 +18,7 @@ brew install --cask caffeine
 
 brew install --cask iterm2
 brew install --cask docker
+brew install --cask pgadmin4
 brew install --cask lens
 
 brew install --cask visual-studio-code
