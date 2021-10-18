@@ -39,14 +39,8 @@ brew install ffmpeg
 brew install ruby
 brew install yarn
 brew install helm
-
-# Docker & Minikube
-#
-# @see: https://itnext.io/goodbye-docker-desktop-hello-minikube-3649f2a1c469
-brew install hyperkit
 brew install docker
 brew install kubectl
-brew install minikube
 
 # Fonts
 brew tap homebrew/cask-fonts
