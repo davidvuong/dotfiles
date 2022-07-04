@@ -1,14 +1,4 @@
 {
-  "terraform.path": "terraform12",
-  "terraform.indexing": {
-    "enabled": false,
-    "liveIndexing": false,
-    "delay": 500,
-    "exclude": [".terraform/**/*", "**/.terraform/**/*"]
-  },
-  "terraform.languageServer": {
-    "external": true
-  },
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
@@ -26,11 +16,13 @@
   "editor.hover.delay": 200,
   "editor.lineNumbers": "on",
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "solidity.formatter": "prettier",
+  "[solidity]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[python]": {
     "editor.tabSize": 4
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
     "editor.formatOnSave": false
@@ -65,5 +57,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.validate.enable": false,
   "python.languageServer": "Pylance",
-  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/"
+  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/",
+  "editor.unicodeHighlight.ambiguousCharacters": false
 }
