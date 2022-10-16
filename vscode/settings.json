@@ -19,7 +19,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "solidity.formatter": "prettier",
   "[solidity]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 4
   },
   "[python]": {
     "editor.tabSize": 4
@@ -58,5 +59,11 @@
   "javascript.validate.enable": false,
   "python.languageServer": "Pylance",
   "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs/",
-  "editor.unicodeHighlight.ambiguousCharacters": false
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "window.zoomLevel": 1,
+  "eslint.packageManager": "yarn",
+  "npm.packageManager": "yarn",
+  // "solidity.packageDefaultDependenciesDirectory": "packages/core/node_modules",
+  "hardhat.telemetry": false,
+  "notebook.output.textLineLimit": 100
 }
