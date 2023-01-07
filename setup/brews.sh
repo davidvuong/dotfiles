@@ -11,8 +11,6 @@ brew install zsh
 brew install git
 brew install git-extras
 brew install coreutils
-brew install fswatch
-brew install watchman
 
 # Network tools
 brew install nmap
@@ -37,7 +35,6 @@ brew install libffi
 brew install ffmpeg
 
 brew install ruby
-brew install yarn
 brew install helm
 brew install docker
 brew install kubectl
