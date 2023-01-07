@@ -41,7 +41,7 @@ brew install kubectl
 
 # Fonts
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
+brew install --cask font-fira-code
 
 # Remove outdated versions from the cellar
 brew cleanup
