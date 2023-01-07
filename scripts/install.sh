@@ -2,7 +2,13 @@
 
 set -eu
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/david/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/david/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+brew analytics off
 
 echo "Installing brews and casks"
 bash ./setup/brews.sh
