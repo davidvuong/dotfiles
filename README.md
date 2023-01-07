@@ -25,6 +25,9 @@ xcode-select --install
 1. Run the installation script:
 
    ```bash
+   # Before running install.sh, make sure to cp/rm any zsh files:
+   #
+   # zlogin, zlogout, zpreztorc, zshenv, zshrc, zprofile
    bash ./scripts/install.sh
    ```
 
