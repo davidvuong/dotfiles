@@ -1,8 +1,8 @@
-# Dotfiles (macOS Big Sur)
+# dotfiles
 
 **Welcome to dotfiles!**
 
-This repository is a collection of config files I use to setup my Mac OS X El Capitan machine. It uses Homebrew/Casks to manage most of my applications, ZSH as the shell (zprezto flavour) and VIM as the terminal editor.
+This repository is a collection of config files I use to setup my macOS machine. It uses Homebrew/Casks to manage most of my applications, ZSH as the shell (zprezto flavour) and VIM as the terminal editor.
 
 It also contains a few "me" specific configuration files e.g. `./git/gitconfig` so if you're interested in using my dotfiles, you may want to leave those out!
 
