@@ -4,7 +4,5 @@ This directory stores keybindings and the general editor configuration file. I h
 
 - ESLint
 - Prettier
-- Terraform
-- React Native Tools (disabled for non RN projects)
 - One Dark Pro (theme)
 - Vim
