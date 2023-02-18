@@ -17,5 +17,6 @@ brew install --cask iterm2
 brew install --cask lens
 brew install --cask visual-studio-code
 brew install --cask spectacle
+brew install --cask notion
 
 brew cleanup
